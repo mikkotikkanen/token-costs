@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-19T00:27:22.693Z",
+  "lastCrawled": "2026-01-20T00:25:08.003Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2553,6 +2553,42 @@
         "outputPricePerMillion": 2.15,
         "contextWindow": 131072,
         "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "openai/gpt-audio",
+        "modelName": "OpenAI: GPT Audio",
+        "inputPricePerMillion": 2.5,
+        "outputPricePerMillion": 10,
+        "contextWindow": 128000,
+        "maxOutputTokens": 16384
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "openai/gpt-audio-mini",
+        "modelName": "OpenAI: GPT Audio Mini",
+        "inputPricePerMillion": 0.6,
+        "outputPricePerMillion": 2.4,
+        "contextWindow": 128000,
+        "maxOutputTokens": 16384
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "z-ai/glm-4.7-flash",
+        "modelName": "Z.AI: GLM 4.7 Flash",
+        "inputPricePerMillion": 0.07,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 200000,
+        "maxOutputTokens": 131072
       }
     }
   ]

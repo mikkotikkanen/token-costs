@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-19",
+    "date": "2026-01-20",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,
@@ -325,11 +325,23 @@
         "output": 14,
         "context": 400000,
         "maxOutput": 128000
+      },
+      "openai/gpt-audio": {
+        "input": 2.5,
+        "output": 10,
+        "context": 128000,
+        "maxOutput": 16384
+      },
+      "openai/gpt-audio-mini": {
+        "input": 0.6,
+        "output": 2.4,
+        "context": 128000,
+        "maxOutput": 16384
       }
     }
   },
   "previous": {
-    "date": "2026-01-18",
+    "date": "2026-01-19",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,
