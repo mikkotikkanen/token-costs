@@ -69,7 +69,7 @@ git commit -m "feat: add my feature"
 
 # 3. Push and create PR
 git push -u origin feat/my-feature
-moi moi/github "Create PR on mikkotikkanen/token-costs from feat/my-feature to main..."
+moi moi/token-costs-agent "Create PR from feat/my-feature to main..."
 
 # 4. After PR is merged, clean up
 git checkout main
@@ -315,19 +315,19 @@ Use moi CLI for GitHub operations (PRs, issues, etc.) instead of `gh` CLI.
 **Getting started:**
 ```bash
 moi list                              # Always start here - list available agents
-moi moi/github "<message>"            # Execute GitHub operations
+moi moi/token-costs-agent "<message>" # Execute GitHub operations
 ```
 
 **Examples:**
 ```bash
 # Create a PR
-moi moi/github "Create a pull request on mikkotikkanen/token-costs from branch feat/my-feature to main with title 'feat: add feature' and body '## Summary\n- Added feature'"
+moi moi/token-costs-agent "Create a pull request from branch feat/my-feature to main with title 'feat: add feature' and body '## Summary\n- Added feature'"
 
 # Check PR status
-moi moi/github "Get the status of PR #1 on mikkotikkanen/token-costs"
+moi moi/token-costs-agent "Get the status of PR #1"
 
 # Merge a PR
-moi moi/github "Merge PR #1 on mikkotikkanen/token-costs"
+moi moi/token-costs-agent "Merge PR #1"
 ```
 
 ---

@@ -1,55 +1,88 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import * as fs from 'fs/promises';
-import * as path from 'path';
 import { CostClient, ClockMismatchError } from './client.js';
 import type { ProviderFile } from './types.js';
-
-const DATA_DIR = path.join(process.cwd(), 'docs', 'api', 'v1');
-
-// Helper to create a mock fetch that serves local files
-function createLocalFetch(dataDir: string) {
-  return async (url: string): Promise<Response> => {
-    const urlObj = new URL(url);
-    const filename = path.basename(urlObj.pathname);
-    const filePath = path.join(dataDir, filename);
-
-    try {
-      const content = await fs.readFile(filePath, 'utf-8');
-      return new Response(content, {
-        status: 200,
-        headers: { 'Content-Type': 'application/json' },
-      });
-    } catch {
-      return new Response('Not found', { status: 404 });
-    }
-  };
-}
 
 // Helper to get current UTC date
 function getUtcDate(offsetMs: number = 0): string {
   return new Date(Date.now() + offsetMs).toISOString().split('T')[0];
 }
 
+// Mock data with realistic pricing - dynamically dated
+function createMockOpenAiData(date: string): ProviderFile {
+  return {
+    current: {
+      date,
+      models: {
+        'gpt-4o': { input: 2.5, output: 10, cached: 1.25, context: 128000 },
+        'gpt-4o-mini': { input: 0.15, output: 0.6, cached: 0.075, context: 128000 },
+        'o1-pro': { input: 150, output: 600, context: 200000 },
+        'o1': { input: 15, output: 60, context: 200000 },
+      },
+    },
+    previous: {
+      date: '2025-01-01',
+      models: {
+        'gpt-4o': { input: 5, output: 15, context: 128000 },
+      },
+    },
+  };
+}
+
+function createMockAnthropicData(date: string): ProviderFile {
+  return {
+    current: {
+      date,
+      models: {
+        'claude-sonnet-4': { input: 3, output: 15, cached: 0.3, context: 200000 },
+        'claude-opus-4.5': { input: 15, output: 75, cached: 1.5, context: 200000 },
+        'claude-haiku-3': { input: 0.25, output: 1.25, cached: 0.03, context: 200000 },
+      },
+    },
+  };
+}
+
+// Helper to create a mock fetch that returns dynamic data
+function createMockFetch(today: string) {
+  const openaiData = createMockOpenAiData(today);
+  const anthropicData = createMockAnthropicData(today);
+
+  return async (url: string): Promise<Response> => {
+    const urlObj = new URL(url);
+    const pathname = urlObj.pathname;
+
+    let data: ProviderFile | null = null;
+    if (pathname.endsWith('openai.json')) {
+      data = openaiData;
+    } else if (pathname.endsWith('anthropic.json')) {
+      data = anthropicData;
+    }
+
+    if (data) {
+      return new Response(JSON.stringify(data), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
+    return new Response('Not found', { status: 404 });
+  };
+}
+
 describe('CostClient', () => {
   let client: CostClient;
   let openaiData: ProviderFile;
   let anthropicData: ProviderFile;
+  let today: string;
 
-  beforeEach(async () => {
-    // Load the actual data files for reference
-    openaiData = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'openai.json'), 'utf-8'));
-    anthropicData = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'anthropic.json'), 'utf-8'));
+  beforeEach(() => {
+    // Use current date for all mock data
+    today = getUtcDate();
+    openaiData = createMockOpenAiData(today);
+    anthropicData = createMockAnthropicData(today);
 
-    // Create client with mock fetch pointing to local files
+    // Create client with mock fetch returning dynamically-dated data
     client = new CostClient({
       baseUrl: 'file://local',
-      fetch: createLocalFetch(DATA_DIR),
-      // Use timeOffset to match the data date so stale=false
-      timeOffsetMs: (() => {
-        const dataDate = new Date(openaiData.current.date + 'T00:00:00Z').getTime();
-        const now = Date.now();
-        return dataDate - now + 12 * 60 * 60 * 1000; // Set to noon on data date
-      })(),
+      fetch: createMockFetch(today),
     });
   });
 
@@ -238,17 +271,11 @@ describe('CostClient', () => {
 
   describe('stale flag', () => {
     it('should mark data as stale when client date is ahead of data date', async () => {
-      // Create client with time set to 1 day after data date (noon)
-      // This gives daysDiff = 1, which passes the >1 check but sets stale=true
+      // Data from yesterday, client uses today - data should be marked stale
+      const yesterday = getUtcDate(-24 * 60 * 60 * 1000);
       const staleClient = new CostClient({
         baseUrl: 'file://local',
-        fetch: createLocalFetch(DATA_DIR),
-        timeOffsetMs: (() => {
-          const dataDate = new Date(openaiData.current.date + 'T00:00:00Z').getTime();
-          const now = Date.now();
-          // Set to noon on the day AFTER data date
-          return dataDate - now + 24 * 60 * 60 * 1000 + 12 * 60 * 60 * 1000;
-        })(),
+        fetch: createMockFetch(yesterday),
       });
 
       const result = await staleClient.getModelPricing('openai', 'gpt-4o');
@@ -264,18 +291,15 @@ describe('CostClient', () => {
   describe('caching', () => {
     it('should cache data and not fetch again for same day', async () => {
       let fetchCount = 0;
+      const mockFetch = createMockFetch(today);
       const countingFetch = async (url: string): Promise<Response> => {
         fetchCount++;
-        return createLocalFetch(DATA_DIR)(url);
+        return mockFetch(url);
       };
 
       const cachingClient = new CostClient({
         baseUrl: 'file://local',
         fetch: countingFetch,
-        timeOffsetMs: (() => {
-          const dataDate = new Date(openaiData.current.date + 'T00:00:00Z').getTime();
-          return dataDate - Date.now() + 12 * 60 * 60 * 1000;
-        })(),
       });
 
       // First call should fetch
@@ -298,9 +322,10 @@ describe('CostClient', () => {
 
   describe('ClockMismatchError', () => {
     it('should throw when client clock is way ahead (>1 day)', async () => {
+      // Client thinks it's 3 days in the future, but data is from today
       const aheadClient = new CostClient({
         baseUrl: 'file://local',
-        fetch: createLocalFetch(DATA_DIR),
+        fetch: createMockFetch(today),
         timeOffsetMs: 3 * 24 * 60 * 60 * 1000, // 3 days ahead
       });
 
@@ -309,10 +334,23 @@ describe('CostClient', () => {
       );
     });
 
+    it('should throw when data is from the future (client clock behind)', async () => {
+      // Data is from 3 days in the future - client clock must be behind
+      const futureDate = getUtcDate(3 * 24 * 60 * 60 * 1000);
+      const behindClient = new CostClient({
+        baseUrl: 'file://local',
+        fetch: createMockFetch(futureDate),
+      });
+
+      await expect(behindClient.getModelPricing('openai', 'gpt-4o')).rejects.toThrow(
+        ClockMismatchError
+      );
+    });
+
     it('should include useful info in ClockMismatchError', async () => {
       const aheadClient = new CostClient({
         baseUrl: 'file://local',
-        fetch: createLocalFetch(DATA_DIR),
+        fetch: createMockFetch(today),
         timeOffsetMs: 3 * 24 * 60 * 60 * 1000,
       });
 
@@ -321,7 +359,7 @@ describe('CostClient', () => {
       } catch (err) {
         expect(err).toBeInstanceOf(ClockMismatchError);
         const clockErr = err as ClockMismatchError;
-        expect(clockErr.dataDate).toBe(openaiData.current.date);
+        expect(clockErr.dataDate).toBe(today);
         expect(clockErr.daysDiff).toBeGreaterThan(1);
       }
     });
@@ -345,9 +383,11 @@ describe('CostClient', () => {
 
 describe('Custom providers and offline mode', () => {
   let openaiData: ProviderFile;
+  let today: string;
 
-  beforeEach(async () => {
-    openaiData = JSON.parse(await fs.readFile(path.join(DATA_DIR, 'openai.json'), 'utf-8'));
+  beforeEach(() => {
+    today = getUtcDate();
+    openaiData = createMockOpenAiData(today);
   });
 
   describe('offline mode', () => {
@@ -397,16 +437,12 @@ describe('Custom providers and offline mode', () => {
     it('should merge custom models with remote data', async () => {
       const client = new CostClient({
         baseUrl: 'file://local',
-        fetch: createLocalFetch(DATA_DIR),
+        fetch: createMockFetch(today),
         customProviders: {
           openai: {
             'my-custom-gpt': { input: 100, output: 200 },
           },
         },
-        timeOffsetMs: (() => {
-          const dataDate = new Date(openaiData.current.date + 'T00:00:00Z').getTime();
-          return dataDate - Date.now() + 12 * 60 * 60 * 1000;
-        })(),
       });
 
       // Custom model should work
@@ -422,16 +458,12 @@ describe('Custom providers and offline mode', () => {
     it('should allow custom data to override remote data', async () => {
       const client = new CostClient({
         baseUrl: 'file://local',
-        fetch: createLocalFetch(DATA_DIR),
+        fetch: createMockFetch(today),
         customProviders: {
           openai: {
             'gpt-4o': { input: 999, output: 888 }, // Override remote
           },
         },
-        timeOffsetMs: (() => {
-          const dataDate = new Date(openaiData.current.date + 'T00:00:00Z').getTime();
-          return dataDate - Date.now() + 12 * 60 * 60 * 1000;
-        })(),
       });
 
       const result = await client.getModelPricing('openai', 'gpt-4o');
