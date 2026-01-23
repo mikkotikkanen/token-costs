@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-20T00:25:08.003Z",
+  "lastCrawled": "2026-01-23T00:26:21.582Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2589,6 +2589,58 @@
         "outputPricePerMillion": 0.4,
         "contextWindow": 200000,
         "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "google/gemini-2.5-flash-lite-preview-09-2025",
+        "modelName": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65535
+      },
+      "previousPricing": {
+        "modelId": "google/gemini-2.5-flash-lite-preview-09-2025",
+        "modelName": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-235b-a22b-thinking",
+        "modelName": "Qwen: Qwen3 VL 235B A22B Thinking",
+        "inputPricePerMillion": 0.45,
+        "outputPricePerMillion": 3.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-vl-235b-a22b-thinking",
+        "modelName": "Qwen: Qwen3 VL 235B A22B Thinking",
+        "inputPricePerMillion": 0.98,
+        "outputPricePerMillion": 3.95,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemini-2.0-flash-exp:free",
+        "modelName": "Google: Gemini 2.0 Flash Experimental (free)",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 8192
       }
     }
   ]
