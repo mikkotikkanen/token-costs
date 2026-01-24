@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-23T00:26:21.582Z",
+  "lastCrawled": "2026-01-24T00:25:10.644Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2641,6 +2641,26 @@
         "outputPricePerMillion": 0.4,
         "contextWindow": 1048576,
         "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-01-24",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.1",
+        "modelName": "MiniMax: MiniMax M2.1",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 1.1,
+        "contextWindow": 196608,
+        "maxOutputTokens": 196608
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.1",
+        "modelName": "MiniMax: MiniMax M2.1",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 1.12,
+        "contextWindow": 196608,
+        "maxOutputTokens": 65536
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-23",
+    "date": "2026-01-24",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,
@@ -125,7 +125,7 @@
     }
   },
   "previous": {
-    "date": "2026-01-20",
+    "date": "2026-01-23",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,
@@ -155,7 +155,7 @@
         "input": 0.1,
         "output": 0.4,
         "context": 1048576,
-        "maxOutput": 65536
+        "maxOutput": 65535
       },
       "google/gemini-2.5-flash-lite": {
         "input": 0.1,
@@ -240,6 +240,12 @@
         "output": 2.5,
         "context": 1048576,
         "maxOutput": 65535
+      },
+      "google/gemini-2.0-flash-exp:free": {
+        "input": 0.1,
+        "output": 0.4,
+        "context": 1048576,
+        "maxOutput": 8192
       }
     }
   }
