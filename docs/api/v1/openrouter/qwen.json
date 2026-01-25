@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-23",
+    "date": "2026-01-25",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.5,
@@ -239,7 +239,7 @@
     }
   },
   "previous": {
-    "date": "2026-01-20",
+    "date": "2026-01-23",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.5,
@@ -266,10 +266,10 @@
         "maxOutput": null
       },
       "qwen/qwen3-vl-235b-a22b-thinking": {
-        "input": 0.98,
-        "output": 3.95,
-        "context": 131072,
-        "maxOutput": 32768
+        "input": 0.45,
+        "output": 3.5,
+        "context": 262144,
+        "maxOutput": 262144
       },
       "qwen/qwen3-vl-235b-a22b-instruct": {
         "input": 0.2,

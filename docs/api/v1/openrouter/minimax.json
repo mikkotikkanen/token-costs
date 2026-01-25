@@ -1,12 +1,12 @@
 {
   "current": {
-    "date": "2026-01-23",
+    "date": "2026-01-25",
     "models": {
       "minimax/minimax-m2.1": {
         "input": 0.27,
-        "output": 1.12,
+        "output": 1.1,
         "context": 196608,
-        "maxOutput": 65536
+        "maxOutput": 196608
       },
       "minimax/minimax-m2": {
         "input": 0.2,
@@ -25,11 +25,17 @@
         "output": 1.1,
         "context": 1000192,
         "maxOutput": 1000192
+      },
+      "minimax/minimax-m2-her": {
+        "input": 0.3,
+        "output": 1.2,
+        "context": 32768,
+        "maxOutput": 2048
       }
     }
   },
   "previous": {
-    "date": "2026-01-20",
+    "date": "2026-01-23",
     "models": {
       "minimax/minimax-m2.1": {
         "input": 0.27,
