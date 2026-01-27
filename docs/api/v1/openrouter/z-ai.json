@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-23",
+    "date": "2026-01-27",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,
@@ -59,7 +59,7 @@
     }
   },
   "previous": {
-    "date": "2026-01-20",
+    "date": "2026-01-23",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,

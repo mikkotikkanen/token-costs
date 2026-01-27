@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-23T00:26:21.582Z",
+  "lastCrawled": "2026-01-27T00:27:43.130Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2634,6 +2634,50 @@
     {
       "date": "2026-01-23",
       "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemini-2.0-flash-exp:free",
+        "modelName": "Google: Gemini 2.0 Flash Experimental (free)",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "minimax/minimax-m2-her",
+        "modelName": "MiniMax: MiniMax M2-her",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 32768,
+        "maxOutputTokens": 2048
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.1",
+        "modelName": "MiniMax: MiniMax M2.1",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 1.1,
+        "contextWindow": 196608,
+        "maxOutputTokens": 196608
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.1",
+        "modelName": "MiniMax: MiniMax M2.1",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 1.12,
+        "contextWindow": 196608,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "changeType": "removed",
       "pricing": {
         "modelId": "google/gemini-2.0-flash-exp:free",
         "modelName": "Google: Gemini 2.0 Flash Experimental (free)",
