@@ -23,10 +23,10 @@
 
 **Key commands:**
 ```bash
-npm run build          # Compile TypeScript
-npm test               # Run tests
-npm run dev:openai     # Build + run OpenAI crawler
-npm run generate:npm   # Generate API files from history
+npm run build              # Compile TypeScript
+npm test                   # Run tests
+npm run crawl:dev:openai   # Build + run OpenAI crawler
+npm run generate:npm       # Generate API files from history
 ```
 
 **Key files:**
@@ -174,8 +174,10 @@ See `package.json` for full list. Key scripts:
 | Script | Description |
 |--------|-------------|
 | `npm run build` | Compile TypeScript |
+| `npm run build:watch` | Compile TypeScript in watch mode |
 | `npm test` | Run tests |
-| `npm run dev:{provider}` | Build + run single crawler |
+| `npm run crawl:dev:{provider}` | Build + run single crawler |
+| `npm run crawl:dev:all` | Build + run all crawlers |
 | `npm run test:local` | Test all crawlers locally |
 | `npm run generate:npm` | Generate API files |
 | `npm run generate:npm -- {provider}` | Generate single provider |
@@ -224,7 +226,7 @@ Each crawler must:
 3. Add provider to `Provider` type in `src/npm/types.ts`
 4. Add scripts to `package.json` (reference existing patterns)
 5. Create `.github/workflows/crawl-{provider}.yml` (copy from existing)
-6. Test: `npm run build && npm run dev:{provider}`
+6. Test: `npm run crawl:dev:{provider}`
 
 ---
 
