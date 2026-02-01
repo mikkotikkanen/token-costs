@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-29T00:29:32.295Z",
+  "lastCrawled": "2026-02-01T00:35:25.925Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2717,6 +2717,26 @@
         "outputPricePerMillion": 0.4,
         "contextWindow": 1048576,
         "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-01",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.5,
+        "outputPricePerMillion": 2.8,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.57,
+        "outputPricePerMillion": 2.85,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
       }
     }
   ]
