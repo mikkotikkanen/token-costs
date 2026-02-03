@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-01-29T00:29:32.295Z",
+  "lastCrawled": "2026-02-03T00:32:08.027Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -2717,6 +2717,146 @@
         "outputPricePerMillion": 0.4,
         "contextWindow": 1048576,
         "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.5,
+        "outputPricePerMillion": 2.8,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.57,
+        "outputPricePerMillion": 2.85,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2",
+        "modelName": "MiniMax: MiniMax M2",
+        "inputPricePerMillion": 0.255,
+        "outputPricePerMillion": 1,
+        "contextWindow": 196608,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2",
+        "modelName": "MiniMax: MiniMax M2",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 1,
+        "contextWindow": 196608,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-v3.2-exp",
+        "modelName": "DeepSeek: DeepSeek V3.2 Exp",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 0.41,
+        "contextWindow": 163840,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-v3.2-exp",
+        "modelName": "DeepSeek: DeepSeek V3.2 Exp",
+        "inputPricePerMillion": 0.21,
+        "outputPricePerMillion": 0.32,
+        "contextWindow": 163840,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-8b",
+        "modelName": "Qwen: Qwen3 8B",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 32000,
+        "maxOutputTokens": 8192
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-8b",
+        "modelName": "Qwen: Qwen3 8B",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.25,
+        "contextWindow": 32000,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwq-32b",
+        "modelName": "Qwen: QwQ 32B",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 32768,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwq-32b",
+        "modelName": "Qwen: QwQ 32B",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 32768,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-r1-distill-qwen-32b",
+        "modelName": "DeepSeek: R1 Distill Qwen 32B",
+        "inputPricePerMillion": 0.29,
+        "outputPricePerMillion": 0.29,
+        "contextWindow": 32768,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-r1-distill-qwen-32b",
+        "modelName": "DeepSeek: R1 Distill Qwen 32B",
+        "inputPricePerMillion": 0.29,
+        "outputPricePerMillion": 0.29,
+        "contextWindow": 32768,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "google/gemma-2-27b-it",
+        "modelName": "Google: Gemma 2 27B",
+        "inputPricePerMillion": 0.65,
+        "outputPricePerMillion": 0.65,
+        "contextWindow": 8192,
+        "maxOutputTokens": 2048
+      },
+      "previousPricing": {
+        "modelId": "google/gemma-2-27b-it",
+        "modelName": "Google: Gemma 2 27B",
+        "inputPricePerMillion": 0.65,
+        "outputPricePerMillion": 0.65,
+        "contextWindow": 8192,
+        "maxOutputTokens": null
       }
     }
   ]
