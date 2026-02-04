@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-29",
+    "date": "2026-02-04",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.27,
@@ -15,8 +15,8 @@
         "maxOutput": 65536
       },
       "deepseek/deepseek-v3.2-exp": {
-        "input": 0.21,
-        "output": 0.32,
+        "input": 0.27,
+        "output": 0.41,
         "context": 163840,
         "maxOutput": 65536
       },
@@ -54,7 +54,7 @@
         "input": 0.29,
         "output": 0.29,
         "context": 32768,
-        "maxOutput": null
+        "maxOutput": 32768
       },
       "deepseek/deepseek-r1-distill-llama-70b": {
         "input": 0.03,
@@ -77,7 +77,7 @@
     }
   },
   "previous": {
-    "date": "2026-01-23",
+    "date": "2026-01-29",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.27,
