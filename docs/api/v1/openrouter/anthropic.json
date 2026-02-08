@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-29",
+    "date": "2026-02-08",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
@@ -67,11 +67,17 @@
         "output": 1.25,
         "context": 200000,
         "maxOutput": 4096
+      },
+      "anthropic/claude-opus-4.6": {
+        "input": 5,
+        "output": 25,
+        "context": 1000000,
+        "maxOutput": 128000
       }
     }
   },
   "previous": {
-    "date": "2026-01-23",
+    "date": "2026-01-29",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,

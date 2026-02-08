@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-01-29",
+    "date": "2026-02-08",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,
@@ -39,10 +39,10 @@
         "maxOutput": 65536
       },
       "z-ai/glm-4.5-air": {
-        "input": 0.05,
-        "output": 0.22,
+        "input": 0.13,
+        "output": 0.85,
         "context": 131072,
-        "maxOutput": 131072
+        "maxOutput": 98304
       },
       "z-ai/glm-4-32b": {
         "input": 0.1,
@@ -51,15 +51,15 @@
         "maxOutput": null
       },
       "z-ai/glm-4.7-flash": {
-        "input": 0.07,
+        "input": 0.06,
         "output": 0.4,
-        "context": 200000,
-        "maxOutput": 131072
+        "context": 202752,
+        "maxOutput": null
       }
     }
   },
   "previous": {
-    "date": "2026-01-23",
+    "date": "2026-01-29",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,
