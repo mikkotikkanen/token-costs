@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastCrawled": "2026-01-29T00:33:45.214Z",
+  "lastCrawled": "2026-02-09T00:36:36.110Z",
   "pricingUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
   "changes": [
     {
@@ -111,6 +111,17 @@
         "inputPricePerMillion": 0.25,
         "outputPricePerMillion": 1.25,
         "cachedInputPricePerMillion": 0.03
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.6",
+        "modelName": "Claude Opus 4.6",
+        "inputPricePerMillion": 5,
+        "outputPricePerMillion": 25,
+        "cachedInputPricePerMillion": 0.5
       }
     }
   ]
