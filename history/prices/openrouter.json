@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-09T00:32:38.322Z",
+  "lastCrawled": "2026-02-10T00:37:26.708Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -3053,6 +3053,218 @@
         "outputPricePerMillion": 1.15,
         "contextWindow": 131072,
         "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3-max-thinking",
+        "modelName": "Qwen: Qwen3 Max Thinking",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.45,
+        "outputPricePerMillion": 2.25,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-8b-thinking",
+        "modelName": "Qwen: Qwen3 VL 8B Thinking",
+        "inputPricePerMillion": 0.18,
+        "outputPricePerMillion": 2.1,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-vl-8b-thinking",
+        "modelName": "Qwen: Qwen3 VL 8B Thinking",
+        "inputPricePerMillion": 0.18,
+        "outputPricePerMillion": 2.1,
+        "contextWindow": 256000,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 256000,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-coder-plus",
+        "modelName": "Qwen: Qwen3 Coder Plus",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 5,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-coder-plus",
+        "modelName": "Qwen: Qwen3 Coder Plus",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 5,
+        "contextWindow": 128000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-coder-flash",
+        "modelName": "Qwen: Qwen3 Coder Flash",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.5,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-coder-flash",
+        "modelName": "Qwen: Qwen3 Coder Flash",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.5,
+        "contextWindow": 128000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-plus-2025-07-28:thinking",
+        "modelName": "Qwen: Qwen Plus 0728 (thinking)",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-plus-2025-07-28:thinking",
+        "modelName": "Qwen: Qwen Plus 0728 (thinking)",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 4,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-vl-plus",
+        "modelName": "Qwen: Qwen VL Plus",
+        "inputPricePerMillion": 0.21,
+        "outputPricePerMillion": 0.63,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-vl-plus",
+        "modelName": "Qwen: Qwen VL Plus",
+        "inputPricePerMillion": 0.21,
+        "outputPricePerMillion": 0.63,
+        "contextWindow": 7500,
+        "maxOutputTokens": 1500
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-vl-max",
+        "modelName": "Qwen: Qwen VL Max",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-vl-max",
+        "modelName": "Qwen: Qwen VL Max",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-turbo",
+        "modelName": "Qwen: Qwen-Turbo",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.2,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-turbo",
+        "modelName": "Qwen: Qwen-Turbo",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.2,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-plus",
+        "modelName": "Qwen: Qwen-Plus",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-plus",
+        "modelName": "Qwen: Qwen-Plus",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
       }
     }
   ]

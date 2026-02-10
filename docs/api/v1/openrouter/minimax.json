@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-09",
+    "date": "2026-02-10",
     "models": {
       "minimax/minimax-m2.1": {
         "input": 0.27,
@@ -35,16 +35,16 @@
     }
   },
   "previous": {
-    "date": "2026-01-29",
+    "date": "2026-02-09",
     "models": {
       "minimax/minimax-m2.1": {
         "input": 0.27,
-        "output": 1.1,
+        "output": 0.95,
         "context": 196608,
-        "maxOutput": 196608
+        "maxOutput": null
       },
       "minimax/minimax-m2": {
-        "input": 0.2,
+        "input": 0.255,
         "output": 1,
         "context": 196608,
         "maxOutput": 65536
