@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-11",
+    "date": "2026-02-12",
     "models": {
       "gemini-2.0-flash": {
         "input": 0.4,
@@ -49,7 +49,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-10",
+    "date": "2026-02-11",
     "models": {
       "gemini-2.0-flash": {
         "input": 0.4,
