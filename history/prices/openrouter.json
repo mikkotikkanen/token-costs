@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-11T00:36:36.278Z",
+  "lastCrawled": "2026-02-12T00:31:36.476Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -3285,6 +3285,18 @@
         "outputPricePerMillion": 0.6,
         "contextWindow": 40960,
         "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-12",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 202752,
+        "maxOutputTokens": 202752
       }
     }
   ]

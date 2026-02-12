@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-11",
+    "date": "2026-02-12",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.5,
@@ -251,7 +251,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-10",
+    "date": "2026-02-11",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.5,
@@ -368,9 +368,9 @@
         "maxOutput": 40960
       },
       "qwen/qwen3-235b-a22b": {
-        "input": 0.2,
-        "output": 0.6,
-        "context": 40960,
+        "input": 0.22,
+        "output": 0.88,
+        "context": 131072,
         "maxOutput": null
       },
       "qwen/qwen2.5-coder-7b-instruct": {
