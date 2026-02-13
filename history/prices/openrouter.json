@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-12T00:31:36.476Z",
+  "lastCrawled": "2026-02-13T00:33:42.804Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -3297,6 +3297,162 @@
         "outputPricePerMillion": 3.2,
         "contextWindow": 202752,
         "maxOutputTokens": 202752
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 204800,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 2.56,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 202752,
+        "maxOutputTokens": 202752
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-max-thinking",
+        "modelName": "Qwen: Qwen3 Max Thinking",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-max-thinking",
+        "modelName": "Qwen: Qwen3 Max Thinking",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-32b-instruct",
+        "modelName": "Qwen: Qwen3 VL 32B Instruct",
+        "inputPricePerMillion": 0.104,
+        "outputPricePerMillion": 0.416,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-vl-32b-instruct",
+        "modelName": "Qwen: Qwen3 VL 32B Instruct",
+        "inputPricePerMillion": 0.5,
+        "outputPricePerMillion": 1.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-8b-thinking",
+        "modelName": "Qwen: Qwen3 VL 8B Thinking",
+        "inputPricePerMillion": 0.117,
+        "outputPricePerMillion": 1.365,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-vl-8b-thinking",
+        "modelName": "Qwen: Qwen3 VL 8B Thinking",
+        "inputPricePerMillion": 0.18,
+        "outputPricePerMillion": 2.1,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
+        "modelName": "Qwen: Qwen3 VL 30B A3B Instruct",
+        "inputPricePerMillion": 0.13,
+        "outputPricePerMillion": 0.52,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-vl-30b-a3b-instruct",
+        "modelName": "Qwen: Qwen3 VL 30B A3B Instruct",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 0.6,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-235b-a22b",
+        "modelName": "Qwen: Qwen3 235B A22B",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 40960,
+        "maxOutputTokens": 40960
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-235b-a22b",
+        "modelName": "Qwen: Qwen3 235B A22B",
+        "inputPricePerMillion": 0.22,
+        "outputPricePerMillion": 0.88,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-30b-a3b-thinking",
+        "modelName": "Qwen: Qwen3 VL 30B A3B Thinking",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 1,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-02-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-235b-a22b-thinking",
+        "modelName": "Qwen: Qwen3 VL 235B A22B Thinking",
+        "inputPricePerMillion": 0.45,
+        "outputPricePerMillion": 3.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
       }
     }
   ]

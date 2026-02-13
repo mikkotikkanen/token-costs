@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-12",
+    "date": "2026-02-13",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
@@ -77,7 +77,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-11",
+    "date": "2026-02-12",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
