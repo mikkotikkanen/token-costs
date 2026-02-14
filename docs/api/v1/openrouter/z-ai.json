@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-13",
+    "date": "2026-02-14",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,
@@ -65,7 +65,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-12",
+    "date": "2026-02-13",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.4,
@@ -122,10 +122,10 @@
         "maxOutput": null
       },
       "z-ai/glm-5": {
-        "input": 1,
-        "output": 3.2,
+        "input": 0.8,
+        "output": 2.56,
         "context": 202752,
-        "maxOutput": 202752
+        "maxOutput": 131072
       }
     }
   }

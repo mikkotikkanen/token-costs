@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-13T00:33:42.804Z",
+  "lastCrawled": "2026-02-14T00:31:13.641Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -3451,6 +3451,30 @@
         "modelName": "Qwen: Qwen3 VL 235B A22B Thinking",
         "inputPricePerMillion": 0.45,
         "outputPricePerMillion": 3.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3-4b",
+        "modelName": "Qwen: Qwen3 4B",
+        "inputPricePerMillion": 0.0715,
+        "outputPricePerMillion": 0.273,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
+        "modelName": "Qwen: Qwen3 235B A22B Thinking 2507",
+        "inputPricePerMillion": 0.11,
+        "outputPricePerMillion": 0.6,
         "contextWindow": 262144,
         "maxOutputTokens": 262144
       }
