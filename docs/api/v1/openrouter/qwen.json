@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-15",
+    "date": "2026-02-16",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -239,7 +239,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-14",
+    "date": "2026-02-15",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
