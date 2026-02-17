@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-15T00:33:30.776Z",
+  "lastCrawled": "2026-02-17T00:31:54.890Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -3475,6 +3475,130 @@
         "modelName": "Qwen: Qwen3 235B A22B Thinking 2507",
         "inputPricePerMillion": 0.11,
         "outputPricePerMillion": 0.6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-plus-02-15",
+        "modelName": "Qwen: Qwen3.5 Plus 2026-02-15",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 2.4,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-397b-a17b",
+        "modelName": "Qwen: Qwen3.5 397B A17B",
+        "inputPricePerMillion": 0.6,
+        "outputPricePerMillion": 3.6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 196608,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 204800,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 2.55,
+        "contextWindow": 204800,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 2.56,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.23,
+        "outputPricePerMillion": 3,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.45,
+        "outputPricePerMillion": 2.25,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.26,
+        "outputPricePerMillion": 0.38,
+        "contextWindow": 163840,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 0.38,
+        "contextWindow": 163840,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-17",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2-0905",
+        "modelName": "MoonshotAI: Kimi K2 0905",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 2,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2-0905",
+        "modelName": "MoonshotAI: Kimi K2 0905",
+        "inputPricePerMillion": 0.39,
+        "outputPricePerMillion": 1.9,
         "contextWindow": 262144,
         "maxOutputTokens": 262144
       }
