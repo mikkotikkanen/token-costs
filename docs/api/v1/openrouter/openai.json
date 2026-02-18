@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-17",
+    "date": "2026-02-18",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,
@@ -224,12 +224,6 @@
         "context": 128000,
         "maxOutput": 16384
       },
-      "openai/chatgpt-4o-latest": {
-        "input": 5,
-        "output": 15,
-        "context": 128000,
-        "maxOutput": 16384
-      },
       "openai/gpt-4o-2024-08-06": {
         "input": 2.5,
         "output": 10,
@@ -341,7 +335,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-15",
+    "date": "2026-02-17",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,
