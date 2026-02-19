@@ -1,10 +1,10 @@
 {
   "current": {
-    "date": "2026-02-18",
+    "date": "2026-02-19",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
-        "input": 0.27,
-        "output": 0.41,
+        "input": 0.4,
+        "output": 1.2,
         "context": 163840,
         "maxOutput": 65536
       },
@@ -57,10 +57,10 @@
         "maxOutput": 32768
       },
       "deepseek/deepseek-r1-distill-llama-70b": {
-        "input": 0.03,
-        "output": 0.11,
+        "input": 0.7,
+        "output": 0.8,
         "context": 131072,
-        "maxOutput": 131072
+        "maxOutput": 16384
       },
       "deepseek/deepseek-r1": {
         "input": 0.7,
@@ -69,15 +69,15 @@
         "maxOutput": 16000
       },
       "deepseek/deepseek-chat": {
-        "input": 0.3,
-        "output": 1.2,
+        "input": 0.32,
+        "output": 0.89,
         "context": 163840,
         "maxOutput": 163840
       }
     }
   },
   "previous": {
-    "date": "2026-02-17",
+    "date": "2026-02-18",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.27,
