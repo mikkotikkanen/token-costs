@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "models": {
       "claude-opus-4.5": {
         "input": 5,
@@ -65,7 +65,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-18",
+    "date": "2026-02-19",
     "models": {
       "claude-opus-4.5": {
         "input": 5,
