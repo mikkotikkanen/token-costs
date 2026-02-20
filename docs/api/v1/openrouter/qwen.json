@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -230,12 +230,6 @@
         "context": 262144,
         "maxOutput": 65536
       },
-      "qwen/qwen3-4b": {
-        "input": 0.0715,
-        "output": 0.273,
-        "context": 131072,
-        "maxOutput": 8192
-      },
       "qwen/qwen3.5-plus-02-15": {
         "input": 0.4,
         "output": 2.4,
@@ -251,7 +245,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-18",
+    "date": "2026-02-19",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -302,8 +296,8 @@
         "maxOutput": 32768
       },
       "qwen/qwen3-30b-a3b-instruct-2507": {
-        "input": 0.08,
-        "output": 0.33,
+        "input": 0.09,
+        "output": 0.3,
         "context": 262144,
         "maxOutput": 262144
       },
@@ -326,8 +320,8 @@
         "maxOutput": null
       },
       "qwen/qwen3-30b-a3b": {
-        "input": 0.06,
-        "output": 0.22,
+        "input": 0.08,
+        "output": 0.28,
         "context": 40960,
         "maxOutput": 40960
       },
@@ -338,8 +332,8 @@
         "maxOutput": 8192
       },
       "qwen/qwen3-14b": {
-        "input": 0.05,
-        "output": 0.22,
+        "input": 0.06,
+        "output": 0.24,
         "context": 40960,
         "maxOutput": 40960
       },
@@ -350,10 +344,10 @@
         "maxOutput": 40960
       },
       "qwen/qwen3-235b-a22b": {
-        "input": 0.3,
-        "output": 1.2,
-        "context": 40960,
-        "maxOutput": 40960
+        "input": 0.455,
+        "output": 1.82,
+        "context": 131072,
+        "maxOutput": 8192
       },
       "qwen/qwen2.5-coder-7b-instruct": {
         "input": 0.03,
@@ -362,10 +356,10 @@
         "maxOutput": null
       },
       "qwen/qwen2.5-vl-32b-instruct": {
-        "input": 0.05,
-        "output": 0.22,
-        "context": 16384,
-        "maxOutput": 16384
+        "input": 0.2,
+        "output": 0.6,
+        "context": 128000,
+        "maxOutput": null
       },
       "qwen/qwq-32b": {
         "input": 0.15,
@@ -374,16 +368,16 @@
         "maxOutput": 32768
       },
       "qwen/qwen2.5-vl-72b-instruct": {
-        "input": 0.15,
-        "output": 0.6,
-        "context": 32768,
-        "maxOutput": 32768
+        "input": 0.25,
+        "output": 0.75,
+        "context": 32000,
+        "maxOutput": null
       },
       "qwen/qwen-2.5-coder-32b-instruct": {
-        "input": 0.03,
-        "output": 0.11,
+        "input": 0.2,
+        "output": 0.2,
         "context": 32768,
-        "maxOutput": 32768
+        "maxOutput": 8192
       },
       "qwen/qwen-2.5-7b-instruct": {
         "input": 0.04,

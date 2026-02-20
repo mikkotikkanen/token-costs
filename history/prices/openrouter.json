@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-19T00:32:49.190Z",
+  "lastCrawled": "2026-02-20T00:29:16.078Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4037,6 +4037,30 @@
         "outputPricePerMillion": 2.5,
         "contextWindow": 1048576,
         "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemini-3.1-pro-preview",
+        "modelName": "Google: Gemini 3.1 Pro Preview",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 12,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-20",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen3-4b",
+        "modelName": "Qwen: Qwen3 4B",
+        "inputPricePerMillion": 0.0715,
+        "outputPricePerMillion": 0.273,
+        "contextWindow": 131072,
+        "maxOutputTokens": 8192
       }
     }
   ]
