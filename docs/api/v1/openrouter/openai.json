@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-20",
+    "date": "2026-02-21",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,
@@ -335,7 +335,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "models": {
       "openai/gpt-5.2-chat": {
         "input": 1.75,

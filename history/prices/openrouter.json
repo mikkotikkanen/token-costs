@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-20T00:29:16.078Z",
+  "lastCrawled": "2026-02-21T00:30:08.530Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4061,6 +4061,46 @@
         "outputPricePerMillion": 0.273,
         "contextWindow": 131072,
         "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-max-thinking",
+        "modelName": "Qwen: Qwen3 Max Thinking",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-max-thinking",
+        "modelName": "Qwen: Qwen3 Max Thinking",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
       }
     }
   ]
