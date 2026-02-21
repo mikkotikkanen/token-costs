@@ -1,6 +1,6 @@
 {
   "provider": "google",
-  "lastCrawled": "2026-02-19T00:48:51.041Z",
+  "lastCrawled": "2026-02-21T00:45:13.438Z",
   "pricingUrl": "https://ai.google.dev/gemini-api/docs/pricing",
   "changes": [
     {
@@ -367,6 +367,39 @@
         "modelName": "gemini-3-flash-preview",
         "inputPricePerMillion": 3,
         "outputPricePerMillion": 3
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gemini-3.1-pro-preview",
+        "modelName": "gemini-3.1-pro-preview",
+        "inputPricePerMillion": 14,
+        "outputPricePerMillion": 14,
+        "cachedInputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gemini-3.1-pro-preview-customtools",
+        "modelName": "gemini-3.1-pro-preview-customtools",
+        "inputPricePerMillion": 14,
+        "outputPricePerMillion": 14,
+        "cachedInputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-02-21",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gemini-2.5-flash-preview-09-2025",
+        "modelName": "gemini-2.5-flash-preview-09-2025",
+        "inputPricePerMillion": 2.5,
+        "outputPricePerMillion": 2.5,
+        "cachedInputPricePerMillion": 35
       }
     }
   ]
