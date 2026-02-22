@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-20",
+    "date": "2026-02-22",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -77,7 +77,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-19",
+    "date": "2026-02-20",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
