@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "moonshotai/kimi-k2-thinking": {
         "input": 0.47,
@@ -35,7 +35,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-22",
+    "date": "2026-02-23",
     "models": {
       "moonshotai/kimi-k2-thinking": {
         "input": 0.47,

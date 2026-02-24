@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-23T00:31:45.530Z",
+  "lastCrawled": "2026-02-24T00:30:22.293Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4141,6 +4141,26 @@
         "outputPricePerMillion": 6,
         "contextWindow": 262144,
         "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen2.5-vl-72b-instruct",
+        "modelName": "Qwen: Qwen2.5 VL 72B Instruct",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 0.8,
+        "contextWindow": 32768,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen2.5-vl-72b-instruct",
+        "modelName": "Qwen: Qwen2.5 VL 72B Instruct",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 0.75,
+        "contextWindow": 32000,
+        "maxOutputTokens": null
       }
     }
   ]
