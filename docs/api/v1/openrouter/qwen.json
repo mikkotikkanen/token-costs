@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-24",
+    "date": "2026-02-25",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -237,15 +237,15 @@
         "maxOutput": 65536
       },
       "qwen/qwen3.5-397b-a17b": {
-        "input": 0.15,
-        "output": 1,
+        "input": 0.55,
+        "output": 3.5,
         "context": 262144,
         "maxOutput": 65536
       }
     }
   },
   "previous": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -368,10 +368,10 @@
         "maxOutput": 32768
       },
       "qwen/qwen2.5-vl-72b-instruct": {
-        "input": 0.25,
-        "output": 0.75,
-        "context": 32000,
-        "maxOutput": null
+        "input": 0.8,
+        "output": 0.8,
+        "context": 32768,
+        "maxOutput": 32768
       },
       "qwen/qwen-2.5-coder-32b-instruct": {
         "input": 0.2,
