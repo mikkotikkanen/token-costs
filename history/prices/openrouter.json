@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-02-24T00:30:22.293Z",
+  "lastCrawled": "2026-02-27T00:31:36.879Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4160,6 +4160,170 @@
         "inputPricePerMillion": 0.25,
         "outputPricePerMillion": 0.75,
         "contextWindow": 32000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemini-3.1-flash-image-preview",
+        "modelName": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 1.5,
+        "contextWindow": 65536,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-35b-a3b",
+        "modelName": "Qwen: Qwen3.5-35B-A3B",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 2,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-27b",
+        "modelName": "Qwen: Qwen3.5-27B",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 2.4,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-122b-a10b",
+        "modelName": "Qwen: Qwen3.5-122B-A10B",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-flash-02-23",
+        "modelName": "Qwen: Qwen3.5-Flash",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemini-3.1-pro-preview-customtools",
+        "modelName": "Google: Gemini 3.1 Pro Preview Custom Tools",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 12,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "openai/gpt-5.3-codex",
+        "modelName": "OpenAI: GPT-5.3-Codex",
+        "inputPricePerMillion": 1.75,
+        "outputPricePerMillion": 14,
+        "contextWindow": 400000,
+        "maxOutputTokens": 128000
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-397b-a17b",
+        "modelName": "Qwen: Qwen3.5 397B A17B",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 3.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3.5-397b-a17b",
+        "modelName": "Qwen: Qwen3.5 397B A17B",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 1,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-4.7",
+        "modelName": "Z.ai: GLM 4.7",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.4,
+        "contextWindow": 202752,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-4.7",
+        "modelName": "Z.ai: GLM 4.7",
+        "inputPricePerMillion": 0.38,
+        "outputPricePerMillion": 1.7,
+        "contextWindow": 202752,
+        "maxOutputTokens": 65535
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 163840,
+        "maxOutputTokens": 163840
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.26,
+        "outputPricePerMillion": 0.38,
+        "contextWindow": 163840,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-02-27",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2",
+        "modelName": "MoonshotAI: Kimi K2 0711",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 2.2,
+        "contextWindow": 131000,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2",
+        "modelName": "MoonshotAI: Kimi K2 0711",
+        "inputPricePerMillion": 0.5,
+        "outputPricePerMillion": 2.4,
+        "contextWindow": 131072,
         "maxOutputTokens": null
       }
     }
