@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-24",
+    "date": "2026-03-02",
     "models": {
       "perplexity/sonar-pro-search": {
         "input": 3,
@@ -35,7 +35,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "perplexity/sonar-pro-search": {
         "input": 3,

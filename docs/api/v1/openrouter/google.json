@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-24",
+    "date": "2026-03-02",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,
@@ -115,11 +115,23 @@
         "output": 12,
         "context": 1048576,
         "maxOutput": 65536
+      },
+      "google/gemini-3.1-flash-image-preview": {
+        "input": 0.25,
+        "output": 1.5,
+        "context": 65536,
+        "maxOutput": 65536
+      },
+      "google/gemini-3.1-pro-preview-customtools": {
+        "input": 2,
+        "output": 12,
+        "context": 1048576,
+        "maxOutput": 65536
       }
     }
   },
   "previous": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,
