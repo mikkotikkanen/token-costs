@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastCrawled": "2026-02-24T00:34:33.306Z",
+  "lastCrawled": "2026-03-08T00:37:16.192Z",
   "pricingUrl": "https://platform.openai.com/docs/pricing",
   "changes": [
     {
@@ -854,6 +854,27 @@
         "modelName": "gpt-4o-search-preview",
         "inputPricePerMillion": 2.5,
         "outputPricePerMillion": 10
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gpt-5.4-272k-context-length",
+        "modelName": "gpt-5.4 (<272K context length)",
+        "inputPricePerMillion": 1.25,
+        "outputPricePerMillion": 7.5,
+        "cachedInputPricePerMillion": 0.13
+      }
+    },
+    {
+      "date": "2026-03-08",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gpt-5.4-pro-272k-context-length",
+        "modelName": "gpt-5.4-pro (<272K context length)",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 90
       }
     }
   ]
