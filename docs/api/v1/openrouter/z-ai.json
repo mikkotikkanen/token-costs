@@ -1,12 +1,12 @@
 {
   "current": {
-    "date": "2026-02-24",
+    "date": "2026-03-09",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.38,
-        "output": 1.7,
+        "output": 1.98,
         "context": 202752,
-        "maxOutput": 65535
+        "maxOutput": null
       },
       "z-ai/glm-4.6v": {
         "input": 0.3,
@@ -15,10 +15,10 @@
         "maxOutput": 131072
       },
       "z-ai/glm-4.6": {
-        "input": 0.35,
-        "output": 1.71,
-        "context": 202752,
-        "maxOutput": 131072
+        "input": 0.39,
+        "output": 1.9,
+        "context": 204800,
+        "maxOutput": 204800
       },
       "z-ai/glm-4.6:exacto": {
         "input": 0.44,
@@ -33,10 +33,10 @@
         "maxOutput": 16384
       },
       "z-ai/glm-4.5": {
-        "input": 0.55,
-        "output": 2,
-        "context": 131000,
-        "maxOutput": 131000
+        "input": 0.6,
+        "output": 2.2,
+        "context": 131072,
+        "maxOutput": 98304
       },
       "z-ai/glm-4.5-air": {
         "input": 0.13,
@@ -57,15 +57,15 @@
         "maxOutput": null
       },
       "z-ai/glm-5": {
-        "input": 0.95,
-        "output": 2.55,
-        "context": 204800,
-        "maxOutput": 131072
+        "input": 0.8,
+        "output": 2.56,
+        "context": 202752,
+        "maxOutput": null
       }
     }
   },
   "previous": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.38,
