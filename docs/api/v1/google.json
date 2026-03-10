@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-02-24",
+    "date": "2026-03-10",
     "models": {
       "gemini-2.0-flash": {
         "input": 0.4,
@@ -36,11 +36,6 @@
         "output": 0.4,
         "cached": 35
       },
-      "gemini-3-pro-preview": {
-        "input": 14,
-        "output": 14,
-        "cached": 14
-      },
       "gemini-3.1-pro-preview": {
         "input": 14,
         "output": 14,
@@ -50,11 +45,16 @@
         "input": 14,
         "output": 14,
         "cached": 14
+      },
+      "gemini-3.1-flash-lite-preview": {
+        "input": 1.5,
+        "output": 1.5,
+        "cached": 14
       }
     }
   },
   "previous": {
-    "date": "2026-02-23",
+    "date": "2026-02-24",
     "models": {
       "gemini-2.0-flash": {
         "input": 0.4,
