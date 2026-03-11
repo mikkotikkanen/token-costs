@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-10",
+    "date": "2026-03-11",
     "models": {
       "gpt-5.2": {
         "input": 0.875,
@@ -111,7 +111,7 @@
     }
   },
   "previous": {
-    "date": "2026-02-24",
+    "date": "2026-03-10",
     "models": {
       "gpt-5.2": {
         "input": 0.875,
@@ -209,6 +209,15 @@
       "computer-use-preview": {
         "input": 1.5,
         "output": 6
+      },
+      "gpt-5.4-272k-context-length": {
+        "input": 1.25,
+        "output": 7.5,
+        "cached": 0.13
+      },
+      "gpt-5.4-pro-272k-context-length": {
+        "input": 15,
+        "output": 90
       }
     }
   }
