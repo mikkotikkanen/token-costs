@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-03-10T00:27:50.945Z",
+  "lastCrawled": "2026-03-11T00:28:20.354Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4845,6 +4845,138 @@
         "outputPricePerMillion": 6.4,
         "contextWindow": 32768,
         "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-9b",
+        "modelName": "Qwen: Qwen3.5-9B",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.15,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 0.95,
+        "contextWindow": 196608,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.295,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 196608,
+        "maxOutputTokens": 196608
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.72,
+        "outputPricePerMillion": 2.3,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 2.56,
+        "contextWindow": 202752,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-chat-v3-0324",
+        "modelName": "DeepSeek: DeepSeek V3 0324",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 0.77,
+        "contextWindow": 163840,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-chat-v3-0324",
+        "modelName": "DeepSeek: DeepSeek V3 0324",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 0.77,
+        "contextWindow": 163840,
+        "maxOutputTokens": 163840
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "z-ai/glm-4.6:exacto",
+        "modelName": "Z.AI: GLM 4.6 (exacto)",
+        "inputPricePerMillion": 0.44,
+        "outputPricePerMillion": 1.76,
+        "contextWindow": 204800,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "deepseek/deepseek-v3.1-terminus:exacto",
+        "modelName": "DeepSeek: DeepSeek V3.1 Terminus (exacto)",
+        "inputPricePerMillion": 0.21,
+        "outputPricePerMillion": 0.79,
+        "contextWindow": 163840,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2-0905:exacto",
+        "modelName": "MoonshotAI: Kimi K2 0905 (exacto)",
+        "inputPricePerMillion": 0.6,
+        "outputPricePerMillion": 2.5,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "openai/gpt-oss-120b:exacto",
+        "modelName": "OpenAI: gpt-oss-120b (exacto)",
+        "inputPricePerMillion": 0.039,
+        "outputPricePerMillion": 0.19,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen3-coder:exacto",
+        "modelName": "Qwen: Qwen3 Coder 480B A35B (exacto)",
+        "inputPricePerMillion": 0.22,
+        "outputPricePerMillion": 1.8,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65536
       }
     }
   ]
