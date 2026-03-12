@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-03-11T00:28:20.354Z",
+  "lastCrawled": "2026-03-12T00:26:27.175Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -4977,6 +4977,70 @@
         "outputPricePerMillion": 1.8,
         "contextWindow": 262144,
         "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.26,
+        "outputPricePerMillion": 0.38,
+        "contextWindow": 163840,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "deepseek/deepseek-v3.2",
+        "modelName": "DeepSeek: DeepSeek V3.2",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 163840,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-30b-a3b-thinking",
+        "modelName": "Qwen: Qwen3 VL 30B A3B Thinking",
+        "inputPricePerMillion": 0.13,
+        "outputPricePerMillion": 1.56,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "qwen/qwen3-vl-235b-a22b-thinking",
+        "modelName": "Qwen: Qwen3 VL 235B A22B Thinking",
+        "inputPricePerMillion": 0.26,
+        "outputPricePerMillion": 2.6,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-next-80b-a3b-thinking",
+        "modelName": "Qwen: Qwen3 Next 80B A3B Thinking",
+        "inputPricePerMillion": 0.0975,
+        "outputPricePerMillion": 0.78,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-next-80b-a3b-thinking",
+        "modelName": "Qwen: Qwen3 Next 80B A3B Thinking",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 128000,
+        "maxOutputTokens": null
       }
     }
   ]

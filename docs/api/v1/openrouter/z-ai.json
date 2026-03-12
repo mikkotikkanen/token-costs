@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.38,
@@ -59,7 +59,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-10",
+    "date": "2026-03-11",
     "models": {
       "z-ai/glm-4.7": {
         "input": 0.38,
@@ -78,12 +78,6 @@
         "output": 1.9,
         "context": 204800,
         "maxOutput": 204800
-      },
-      "z-ai/glm-4.6:exacto": {
-        "input": 0.44,
-        "output": 1.76,
-        "context": 204800,
-        "maxOutput": 131072
       },
       "z-ai/glm-4.5v": {
         "input": 0.6,
@@ -116,10 +110,10 @@
         "maxOutput": null
       },
       "z-ai/glm-5": {
-        "input": 0.8,
-        "output": 2.56,
+        "input": 0.72,
+        "output": 2.3,
         "context": 202752,
-        "maxOutput": null
+        "maxOutput": 131072
       }
     }
   }

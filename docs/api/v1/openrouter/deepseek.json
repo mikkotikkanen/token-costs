@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -9,10 +9,10 @@
         "maxOutput": 163840
       },
       "deepseek/deepseek-v3.2": {
-        "input": 0.25,
-        "output": 0.4,
+        "input": 0.26,
+        "output": 0.38,
         "context": 163840,
-        "maxOutput": 65536
+        "maxOutput": null
       },
       "deepseek/deepseek-v3.2-exp": {
         "input": 0.27,
@@ -71,7 +71,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-10",
+    "date": "2026-03-11",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -90,12 +90,6 @@
         "output": 0.41,
         "context": 163840,
         "maxOutput": 65536
-      },
-      "deepseek/deepseek-v3.1-terminus:exacto": {
-        "input": 0.21,
-        "output": 0.79,
-        "context": 163840,
-        "maxOutput": null
       },
       "deepseek/deepseek-v3.1-terminus": {
         "input": 0.21,
@@ -119,7 +113,7 @@
         "input": 0.2,
         "output": 0.77,
         "context": 163840,
-        "maxOutput": 163840
+        "maxOutput": null
       },
       "deepseek/deepseek-r1-distill-qwen-32b": {
         "input": 0.29,
