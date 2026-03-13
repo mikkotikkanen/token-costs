@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-03-13",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -287,7 +287,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
         "input": 0.104,
@@ -314,10 +314,10 @@
         "maxOutput": null
       },
       "qwen/qwen3-next-80b-a3b-thinking": {
-        "input": 0.15,
-        "output": 1.2,
-        "context": 128000,
-        "maxOutput": null
+        "input": 0.0975,
+        "output": 0.78,
+        "context": 131072,
+        "maxOutput": 32768
       },
       "qwen/qwen3-next-80b-a3b-instruct": {
         "input": 0.09,
@@ -558,6 +558,18 @@
         "output": 0.15,
         "context": 262144,
         "maxOutput": null
+      },
+      "qwen/qwen3-vl-30b-a3b-thinking": {
+        "input": 0.13,
+        "output": 1.56,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-vl-235b-a22b-thinking": {
+        "input": 0.26,
+        "output": 2.6,
+        "context": 131072,
+        "maxOutput": 32768
       }
     }
   }
