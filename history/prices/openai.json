@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "lastCrawled": "2026-03-12T00:30:55.119Z",
+  "lastCrawled": "2026-03-13T00:35:42.637Z",
   "pricingUrl": "https://platform.openai.com/docs/pricing",
   "changes": [
     {
@@ -896,6 +896,186 @@
         "modelName": "gpt-5.4-pro (<272K context length)",
         "inputPricePerMillion": 15,
         "outputPricePerMillion": 90
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-5.2-pro",
+        "modelName": "gpt-5.2-pro",
+        "inputPricePerMillion": 10.5,
+        "outputPricePerMillion": 84
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-5-pro",
+        "modelName": "gpt-5-pro",
+        "inputPricePerMillion": 7.5,
+        "outputPricePerMillion": 60
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4.1",
+        "modelName": "gpt-4.1",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 4
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4.1-mini",
+        "modelName": "gpt-4.1-mini",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 0.8
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4.1-nano",
+        "modelName": "gpt-4.1-nano",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.2
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4o",
+        "modelName": "gpt-4o",
+        "inputPricePerMillion": 1.25,
+        "outputPricePerMillion": 5
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4o-2024-05-13",
+        "modelName": "gpt-4o-2024-05-13",
+        "inputPricePerMillion": 2.5,
+        "outputPricePerMillion": 7.5
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gpt-4o-mini",
+        "modelName": "gpt-4o-mini",
+        "inputPricePerMillion": 0.075,
+        "outputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o1",
+        "modelName": "o1",
+        "inputPricePerMillion": 7.5,
+        "outputPricePerMillion": 30
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o1-pro",
+        "modelName": "o1-pro",
+        "inputPricePerMillion": 75,
+        "outputPricePerMillion": 300
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o3-pro",
+        "modelName": "o3-pro",
+        "inputPricePerMillion": 10,
+        "outputPricePerMillion": 40
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o3",
+        "modelName": "o3",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 4
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o3-deep-research",
+        "modelName": "o3-deep-research",
+        "inputPricePerMillion": 5,
+        "outputPricePerMillion": 20
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o4-mini",
+        "modelName": "o4-mini",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 2.2
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o4-mini-deep-research",
+        "modelName": "o4-mini-deep-research",
+        "inputPricePerMillion": 1,
+        "outputPricePerMillion": 4
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o3-mini",
+        "modelName": "o3-mini",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 2.2
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "o1-mini",
+        "modelName": "o1-mini",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 2.2
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "computer-use-preview",
+        "modelName": "computer-use-preview",
+        "inputPricePerMillion": 1.5,
+        "outputPricePerMillion": 6
       }
     }
   ]
