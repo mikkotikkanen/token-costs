@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-03-16",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -71,7 +71,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -80,10 +80,10 @@
         "maxOutput": 163840
       },
       "deepseek/deepseek-v3.2": {
-        "input": 0.25,
-        "output": 0.4,
+        "input": 0.26,
+        "output": 0.38,
         "context": 163840,
-        "maxOutput": 65536
+        "maxOutput": null
       },
       "deepseek/deepseek-v3.2-exp": {
         "input": 0.27,

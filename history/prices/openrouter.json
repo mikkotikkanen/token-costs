@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-03-12T00:26:27.175Z",
+  "lastCrawled": "2026-03-16T00:36:02.782Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -5040,6 +5040,82 @@
         "inputPricePerMillion": 0.15,
         "outputPricePerMillion": 1.2,
         "contextWindow": 128000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "z-ai/glm-5-turbo",
+        "modelName": "Z.ai: GLM 5 Turbo",
+        "inputPricePerMillion": 0.96,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "x-ai/grok-4.20-multi-agent-beta",
+        "modelName": "xAI: Grok 4.20 Multi-Agent Beta",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 2000000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "x-ai/grok-4.20-beta",
+        "modelName": "xAI: Grok 4.20 Beta",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 2000000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-9b",
+        "modelName": "Qwen: Qwen3.5-9B",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.15,
+        "contextWindow": 256000,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3.5-9b",
+        "modelName": "Qwen: Qwen3.5-9B",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.15,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 196608,
+        "maxOutputTokens": 196608
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 0.95,
+        "contextWindow": 196608,
         "maxOutputTokens": null
       }
     }
