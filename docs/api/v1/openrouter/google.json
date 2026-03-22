@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-03-22",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,
@@ -81,10 +81,10 @@
         "maxOutput": null
       },
       "google/gemma-3-27b-it": {
-        "input": 0.03,
-        "output": 0.11,
-        "context": 128000,
-        "maxOutput": 65536
+        "input": 0.08,
+        "output": 0.16,
+        "context": 131072,
+        "maxOutput": 16384
       },
       "google/gemini-2.0-flash-lite-001": {
         "input": 0.075,
@@ -137,7 +137,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "google/gemini-3-flash-preview": {
         "input": 0.5,

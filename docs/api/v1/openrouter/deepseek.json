@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-03-22",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -22,9 +22,9 @@
       },
       "deepseek/deepseek-v3.1-terminus": {
         "input": 0.21,
-        "output": 0.79,
+        "output": 0.78,
         "context": 163840,
-        "maxOutput": null
+        "maxOutput": 65536
       },
       "deepseek/deepseek-chat-v3.1": {
         "input": 0.15,
@@ -71,7 +71,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "deepseek/deepseek-v3.2-speciale": {
         "input": 0.4,
@@ -80,10 +80,10 @@
         "maxOutput": 163840
       },
       "deepseek/deepseek-v3.2": {
-        "input": 0.25,
-        "output": 0.4,
+        "input": 0.26,
+        "output": 0.38,
         "context": 163840,
-        "maxOutput": 65536
+        "maxOutput": null
       },
       "deepseek/deepseek-v3.2-exp": {
         "input": 0.27,
