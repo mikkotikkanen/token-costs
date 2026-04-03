@@ -1,6 +1,6 @@
 {
   "provider": "openrouter",
-  "lastCrawled": "2026-03-12T00:26:27.175Z",
+  "lastCrawled": "2026-04-03T00:35:08.198Z",
   "pricingUrl": "https://openrouter.ai/models",
   "changes": [
     {
@@ -5040,6 +5040,506 @@
         "inputPricePerMillion": 0.15,
         "outputPricePerMillion": 1.2,
         "contextWindow": 128000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "google/gemma-4-31b-it",
+        "modelName": "Google: Gemma 4 31B",
+        "inputPricePerMillion": 0.14,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 262144,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "z-ai/glm-5v-turbo",
+        "modelName": "Z.ai: GLM 5V Turbo",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 4,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "x-ai/grok-4.20-multi-agent",
+        "modelName": "xAI: Grok 4.20 Multi-Agent",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 2000000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "x-ai/grok-4.20",
+        "modelName": "xAI: Grok 4.20",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 2000000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.7",
+        "modelName": "MiniMax: MiniMax M2.7",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 204800,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "openai/gpt-5.4-nano",
+        "modelName": "OpenAI: GPT-5.4 Nano",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 1.25,
+        "contextWindow": 400000,
+        "maxOutputTokens": 128000
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "openai/gpt-5.4-mini",
+        "modelName": "OpenAI: GPT-5.4 Mini",
+        "inputPricePerMillion": 0.75,
+        "outputPricePerMillion": 4.5,
+        "contextWindow": 400000,
+        "maxOutputTokens": 128000
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "z-ai/glm-5-turbo",
+        "modelName": "Z.ai: GLM 5 Turbo",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 4,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-9b",
+        "modelName": "Qwen: Qwen3.5-9B",
+        "inputPricePerMillion": 0.05,
+        "outputPricePerMillion": 0.15,
+        "contextWindow": 256000,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3.5-9b",
+        "modelName": "Qwen: Qwen3.5-9B",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.15,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3.5-flash-02-23",
+        "modelName": "Qwen: Qwen3.5-Flash",
+        "inputPricePerMillion": 0.065,
+        "outputPricePerMillion": 0.26,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3.5-flash-02-23",
+        "modelName": "Qwen: Qwen3.5-Flash",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.118,
+        "outputPricePerMillion": 1,
+        "contextWindow": 196608,
+        "maxOutputTokens": 65536
+      },
+      "previousPricing": {
+        "modelId": "minimax/minimax-m2.5",
+        "modelName": "MiniMax: MiniMax M2.5",
+        "inputPricePerMillion": 0.27,
+        "outputPricePerMillion": 0.95,
+        "contextWindow": 196608,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.72,
+        "outputPricePerMillion": 2.3,
+        "contextWindow": 80000,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-5",
+        "modelName": "Z.ai: GLM 5",
+        "inputPricePerMillion": 0.72,
+        "outputPricePerMillion": 2.3,
+        "contextWindow": 202752,
+        "maxOutputTokens": 131072
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.3827,
+        "outputPricePerMillion": 1.909,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65535
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2.5",
+        "modelName": "MoonshotAI: Kimi K2.5",
+        "inputPricePerMillion": 0.45,
+        "outputPricePerMillion": 2.2,
+        "contextWindow": 262144,
+        "maxOutputTokens": 65535
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "z-ai/glm-4.7",
+        "modelName": "Z.ai: GLM 4.7",
+        "inputPricePerMillion": 0.39,
+        "outputPricePerMillion": 1.75,
+        "contextWindow": 202752,
+        "maxOutputTokens": 65535
+      },
+      "previousPricing": {
+        "modelId": "z-ai/glm-4.7",
+        "modelName": "Z.ai: GLM 4.7",
+        "inputPricePerMillion": 0.38,
+        "outputPricePerMillion": 1.98,
+        "contextWindow": 202752,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "google/gemini-2.5-flash-lite-preview-09-2025",
+        "modelName": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65535
+      },
+      "previousPricing": {
+        "modelId": "google/gemini-2.5-flash-lite-preview-09-2025",
+        "modelName": "Google: Gemini 2.5 Flash Lite Preview 09-2025",
+        "inputPricePerMillion": 0.1,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 0.78,
+        "outputPricePerMillion": 3.9,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-max",
+        "modelName": "Qwen: Qwen3 Max",
+        "inputPricePerMillion": 1.2,
+        "outputPricePerMillion": 6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-next-80b-a3b-instruct",
+        "modelName": "Qwen: Qwen3 Next 80B A3B Instruct",
+        "inputPricePerMillion": 0.09,
+        "outputPricePerMillion": 1.1,
+        "contextWindow": 262144,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-next-80b-a3b-instruct",
+        "modelName": "Qwen: Qwen3 Next 80B A3B Instruct",
+        "inputPricePerMillion": 0.09,
+        "outputPricePerMillion": 1.1,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-30b-a3b-thinking-2507",
+        "modelName": "Qwen: Qwen3 30B A3B Thinking 2507",
+        "inputPricePerMillion": 0.08,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 131072,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-30b-a3b-thinking-2507",
+        "modelName": "Qwen: Qwen3 30B A3B Thinking 2507",
+        "inputPricePerMillion": 0.051,
+        "outputPricePerMillion": 0.34,
+        "contextWindow": 32768,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "openai/gpt-oss-20b",
+        "modelName": "OpenAI: gpt-oss-20b",
+        "inputPricePerMillion": 0.03,
+        "outputPricePerMillion": 0.11,
+        "contextWindow": 131072,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "openai/gpt-oss-20b",
+        "modelName": "OpenAI: gpt-oss-20b",
+        "inputPricePerMillion": 0.03,
+        "outputPricePerMillion": 0.14,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
+        "modelName": "Qwen: Qwen3 235B A22B Thinking 2507",
+        "inputPricePerMillion": 0.1495,
+        "outputPricePerMillion": 1.495,
+        "contextWindow": 131072,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen3-235b-a22b-thinking-2507",
+        "modelName": "Qwen: Qwen3 235B A22B Thinking 2507",
+        "inputPricePerMillion": 0.11,
+        "outputPricePerMillion": 0.6,
+        "contextWindow": 262144,
+        "maxOutputTokens": 262144
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "moonshotai/kimi-k2",
+        "modelName": "MoonshotAI: Kimi K2 0711",
+        "inputPricePerMillion": 0.57,
+        "outputPricePerMillion": 2.3,
+        "contextWindow": 131072,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "moonshotai/kimi-k2",
+        "modelName": "MoonshotAI: Kimi K2 0711",
+        "inputPricePerMillion": 0.55,
+        "outputPricePerMillion": 2.2,
+        "contextWindow": 131000,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "google/gemma-3-27b-it",
+        "modelName": "Google: Gemma 3 27B",
+        "inputPricePerMillion": 0.08,
+        "outputPricePerMillion": 0.16,
+        "contextWindow": 131072,
+        "maxOutputTokens": 16384
+      },
+      "previousPricing": {
+        "modelId": "google/gemma-3-27b-it",
+        "modelName": "Google: Gemma 3 27B",
+        "inputPricePerMillion": 0.03,
+        "outputPricePerMillion": 0.11,
+        "contextWindow": 128000,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwq-32b",
+        "modelName": "Qwen: QwQ 32B",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 0.58,
+        "contextWindow": 131072,
+        "maxOutputTokens": 131072
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwq-32b",
+        "modelName": "Qwen: QwQ 32B",
+        "inputPricePerMillion": 0.15,
+        "outputPricePerMillion": 0.4,
+        "contextWindow": 32768,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-vl-max",
+        "modelName": "Qwen: Qwen VL Max",
+        "inputPricePerMillion": 0.52,
+        "outputPricePerMillion": 2.08,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-vl-max",
+        "modelName": "Qwen: Qwen VL Max",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 3.2,
+        "contextWindow": 131072,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-plus",
+        "modelName": "Qwen: Qwen-Plus",
+        "inputPricePerMillion": 0.26,
+        "outputPricePerMillion": 0.78,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-plus",
+        "modelName": "Qwen: Qwen-Plus",
+        "inputPricePerMillion": 0.4,
+        "outputPricePerMillion": 1.2,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 32768
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-2.5-coder-32b-instruct",
+        "modelName": "Qwen2.5 Coder 32B Instruct",
+        "inputPricePerMillion": 0.66,
+        "outputPricePerMillion": 1,
+        "contextWindow": 32768,
+        "maxOutputTokens": null
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-2.5-coder-32b-instruct",
+        "modelName": "Qwen2.5 Coder 32B Instruct",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 0.2,
+        "contextWindow": 32768,
+        "maxOutputTokens": 8192
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "updated",
+      "pricing": {
+        "modelId": "qwen/qwen-2.5-7b-instruct",
+        "modelName": "Qwen: Qwen2.5 7B Instruct",
+        "inputPricePerMillion": 0.04,
+        "outputPricePerMillion": 0.1,
+        "contextWindow": 32768,
+        "maxOutputTokens": 32768
+      },
+      "previousPricing": {
+        "modelId": "qwen/qwen-2.5-7b-instruct",
+        "modelName": "Qwen: Qwen2.5 7B Instruct",
+        "inputPricePerMillion": 0.04,
+        "outputPricePerMillion": 0.1,
+        "contextWindow": 32768,
+        "maxOutputTokens": null
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "google/gemini-3-pro-preview",
+        "modelName": "Google: Gemini 3 Pro Preview",
+        "inputPricePerMillion": 2,
+        "outputPricePerMillion": 12,
+        "contextWindow": 1048576,
+        "maxOutputTokens": 65536
+      }
+    },
+    {
+      "date": "2026-04-03",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "qwen/qwen-2.5-vl-7b-instruct",
+        "modelName": "Qwen: Qwen2.5-VL 7B Instruct",
+        "inputPricePerMillion": 0.2,
+        "outputPricePerMillion": 0.2,
+        "contextWindow": 32768,
         "maxOutputTokens": null
       }
     }
