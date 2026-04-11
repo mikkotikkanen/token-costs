@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-04-11",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
@@ -56,12 +56,6 @@
         "context": 200000,
         "maxOutput": 8192
       },
-      "anthropic/claude-3.5-sonnet": {
-        "input": 6,
-        "output": 30,
-        "context": 200000,
-        "maxOutput": 8192
-      },
       "anthropic/claude-3-haiku": {
         "input": 0.25,
         "output": 1.25,
@@ -79,11 +73,17 @@
         "output": 15,
         "context": 1000000,
         "maxOutput": 128000
+      },
+      "anthropic/claude-opus-4.6-fast": {
+        "input": 30,
+        "output": 150,
+        "context": 1000000,
+        "maxOutput": 128000
       }
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
