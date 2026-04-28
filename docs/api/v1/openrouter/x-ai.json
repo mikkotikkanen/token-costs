@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-04-28",
     "models": {
       "x-ai/grok-4.1-fast": {
         "input": 0.2,
@@ -49,11 +49,23 @@
         "output": 15,
         "context": 131072,
         "maxOutput": null
+      },
+      "x-ai/grok-4.20-multi-agent": {
+        "input": 2,
+        "output": 6,
+        "context": 2000000,
+        "maxOutput": null
+      },
+      "x-ai/grok-4.20": {
+        "input": 2,
+        "output": 6,
+        "context": 2000000,
+        "maxOutput": null
       }
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "x-ai/grok-4.1-fast": {
         "input": 0.2,
