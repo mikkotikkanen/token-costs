@@ -1,12 +1,12 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-05-13",
     "models": {
       "minimax/minimax-m2.1": {
-        "input": 0.27,
+        "input": 0.29,
         "output": 0.95,
         "context": 196608,
-        "maxOutput": null
+        "maxOutput": 196608
       },
       "minimax/minimax-m2": {
         "input": 0.255,
@@ -33,15 +33,21 @@
         "maxOutput": 2048
       },
       "minimax/minimax-m2.5": {
-        "input": 0.27,
-        "output": 0.95,
+        "input": 0.15,
+        "output": 1.15,
+        "context": 196608,
+        "maxOutput": 196608
+      },
+      "minimax/minimax-m2.7": {
+        "input": 0.28,
+        "output": 1.2,
         "context": 196608,
         "maxOutput": null
       }
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "minimax/minimax-m2.1": {
         "input": 0.27,
