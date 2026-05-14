@@ -1,35 +1,41 @@
 {
   "current": {
-    "date": "2026-03-12",
+    "date": "2026-05-14",
     "models": {
       "moonshotai/kimi-k2-thinking": {
-        "input": 0.47,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 262144
       },
       "moonshotai/kimi-k2-0905": {
-        "input": 0.4,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 262144
       },
       "moonshotai/kimi-k2": {
-        "input": 0.55,
-        "output": 2.2,
-        "context": 131000,
-        "maxOutput": null
+        "input": 0.57,
+        "output": 2.3,
+        "context": 131072,
+        "maxOutput": 32768
       },
       "moonshotai/kimi-k2.5": {
-        "input": 0.45,
-        "output": 2.2,
+        "input": 0.4,
+        "output": 1.9,
         "context": 262144,
-        "maxOutput": 65535
+        "maxOutput": 262144
+      },
+      "moonshotai/kimi-k2.6": {
+        "input": 0.74,
+        "output": 3.5,
+        "context": 262142,
+        "maxOutput": 262142
       }
     }
   },
   "previous": {
-    "date": "2026-03-11",
+    "date": "2026-03-12",
     "models": {
       "moonshotai/kimi-k2-thinking": {
         "input": 0.47,
