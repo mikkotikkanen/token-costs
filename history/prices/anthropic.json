@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastCrawled": "2026-03-12T00:29:52.818Z",
+  "lastCrawled": "2026-05-14T00:55:33.928Z",
   "pricingUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
   "changes": [
     {
@@ -133,6 +133,116 @@
         "inputPricePerMillion": 3,
         "outputPricePerMillion": 15,
         "cachedInputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.7",
+        "modelName": "Claude Opus 4.7",
+        "inputPricePerMillion": 5,
+        "outputPricePerMillion": 25,
+        "cachedInputPricePerMillion": 0.5
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4-deprecated",
+        "modelName": "Claude Opus 4",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-sonnet-4-deprecated",
+        "modelName": "Claude Sonnet 4",
+        "inputPricePerMillion": 3,
+        "outputPricePerMillion": 15,
+        "cachedInputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-haiku-3.5-retired-except-on-bedrock-and-vertex-ai",
+        "modelName": "Claude Haiku 3.5 (retired, except on Bedrock and Vertex AI)",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 4,
+        "cachedInputPricePerMillion": 0.08
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-opus-4",
+        "modelName": "Claude Opus 4",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-sonnet-4",
+        "modelName": "Claude Sonnet 4",
+        "inputPricePerMillion": 3,
+        "outputPricePerMillion": 15,
+        "cachedInputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-sonnet-3.7-deprecated",
+        "modelName": "Claude Sonnet 3.7 (deprecated)",
+        "inputPricePerMillion": 3,
+        "outputPricePerMillion": 15,
+        "cachedInputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-haiku-3.5",
+        "modelName": "Claude Haiku 3.5",
+        "inputPricePerMillion": 0.8,
+        "outputPricePerMillion": 4,
+        "cachedInputPricePerMillion": 0.08
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-opus-3-deprecated",
+        "modelName": "Claude Opus 3 (deprecated)",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-haiku-3",
+        "modelName": "Claude Haiku 3",
+        "inputPricePerMillion": 0.25,
+        "outputPricePerMillion": 1.25,
+        "cachedInputPricePerMillion": 0.03
       }
     }
   ]
