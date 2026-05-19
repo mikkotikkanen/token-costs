@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-05-15",
+    "date": "2026-05-19",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
@@ -83,7 +83,7 @@
     }
   },
   "previous": {
-    "date": "2026-03-12",
+    "date": "2026-05-15",
     "models": {
       "anthropic/claude-opus-4.5": {
         "input": 5,
@@ -118,30 +118,12 @@
       "anthropic/claude-sonnet-4": {
         "input": 3,
         "output": 15,
-        "context": 200000,
-        "maxOutput": 64000
-      },
-      "anthropic/claude-3.7-sonnet:thinking": {
-        "input": 3,
-        "output": 15,
-        "context": 200000,
-        "maxOutput": 64000
-      },
-      "anthropic/claude-3.7-sonnet": {
-        "input": 3,
-        "output": 15,
-        "context": 200000,
+        "context": 1000000,
         "maxOutput": 64000
       },
       "anthropic/claude-3.5-haiku": {
         "input": 0.8,
         "output": 4,
-        "context": 200000,
-        "maxOutput": 8192
-      },
-      "anthropic/claude-3.5-sonnet": {
-        "input": 6,
-        "output": 30,
         "context": 200000,
         "maxOutput": 8192
       },
@@ -160,6 +142,24 @@
       "anthropic/claude-sonnet-4.6": {
         "input": 3,
         "output": 15,
+        "context": 1000000,
+        "maxOutput": 128000
+      },
+      "anthropic/claude-opus-4.7-fast": {
+        "input": 30,
+        "output": 150,
+        "context": 1000000,
+        "maxOutput": 128000
+      },
+      "anthropic/claude-opus-4.7": {
+        "input": 5,
+        "output": 25,
+        "context": 1000000,
+        "maxOutput": 128000
+      },
+      "anthropic/claude-opus-4.6-fast": {
+        "input": 30,
+        "output": 150,
         "context": 1000000,
         "maxOutput": 128000
       }
