@@ -1,5 +1,286 @@
 {
   "current": {
+    "date": "2026-05-29",
+    "models": {
+      "qwen/qwen3-vl-32b-instruct": {
+        "input": 0.104,
+        "output": 0.416,
+        "context": 262144,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-vl-8b-instruct": {
+        "input": 0.08,
+        "output": 0.5,
+        "context": 256000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-vl-30b-a3b-instruct": {
+        "input": 0.13,
+        "output": 0.52,
+        "context": 262144,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-vl-235b-a22b-instruct": {
+        "input": 0.2,
+        "output": 0.88,
+        "context": 262144,
+        "maxOutput": 16384
+      },
+      "qwen/qwen3-next-80b-a3b-thinking": {
+        "input": 0.0975,
+        "output": 0.78,
+        "context": 262144,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-next-80b-a3b-instruct": {
+        "input": 0.09,
+        "output": 1.1,
+        "context": 262144,
+        "maxOutput": 16384
+      },
+      "qwen/qwen3-30b-a3b-thinking-2507": {
+        "input": 0.08,
+        "output": 0.4,
+        "context": 131072,
+        "maxOutput": 131072
+      },
+      "qwen/qwen3-coder-30b-a3b-instruct": {
+        "input": 0.07,
+        "output": 0.27,
+        "context": 160000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-30b-a3b-instruct-2507": {
+        "input": 0.09,
+        "output": 0.3,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "qwen/qwen3-coder": {
+        "input": 0.22,
+        "output": 1.8,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3-235b-a22b-2507": {
+        "input": 0.071,
+        "output": 0.1,
+        "context": 262144,
+        "maxOutput": 16384
+      },
+      "qwen/qwen3-30b-a3b": {
+        "input": 0.09,
+        "output": 0.45,
+        "context": 131072,
+        "maxOutput": 20000
+      },
+      "qwen/qwen3-8b": {
+        "input": 0.05,
+        "output": 0.4,
+        "context": 131072,
+        "maxOutput": 8192
+      },
+      "qwen/qwen3-14b": {
+        "input": 0.1,
+        "output": 0.24,
+        "context": 131702,
+        "maxOutput": 40960
+      },
+      "qwen/qwen3-32b": {
+        "input": 0.08,
+        "output": 0.28,
+        "context": 131072,
+        "maxOutput": 16384
+      },
+      "qwen/qwen3-235b-a22b": {
+        "input": 0.455,
+        "output": 1.82,
+        "context": 131072,
+        "maxOutput": 8192
+      },
+      "qwen/qwen2.5-vl-72b-instruct": {
+        "input": 0.25,
+        "output": 0.75,
+        "context": 131072,
+        "maxOutput": null
+      },
+      "qwen/qwen-2.5-coder-32b-instruct": {
+        "input": 0.66,
+        "output": 1,
+        "context": 128000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen-2.5-7b-instruct": {
+        "input": 0.04,
+        "output": 0.1,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "qwen/qwen-2.5-72b-instruct": {
+        "input": 0.36,
+        "output": 0.4,
+        "context": 131072,
+        "maxOutput": 16384
+      },
+      "qwen/qwen3-vl-8b-thinking": {
+        "input": 0.117,
+        "output": 1.365,
+        "context": 256000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-max": {
+        "input": 0.78,
+        "output": 3.9,
+        "context": 262144,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-coder-plus": {
+        "input": 0.65,
+        "output": 3.25,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3-coder-flash": {
+        "input": 0.195,
+        "output": 0.975,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen-plus-2025-07-28": {
+        "input": 0.26,
+        "output": 0.78,
+        "context": 1000000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen-plus-2025-07-28:thinking": {
+        "input": 0.26,
+        "output": 0.78,
+        "context": 1000000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen-plus": {
+        "input": 0.26,
+        "output": 0.78,
+        "context": 1000000,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-coder-next": {
+        "input": 0.11,
+        "output": 0.8,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "qwen/qwen3-max-thinking": {
+        "input": 0.78,
+        "output": 3.9,
+        "context": 262144,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3.5-plus-02-15": {
+        "input": 0.26,
+        "output": 1.56,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.5-397b-a17b": {
+        "input": 0.39,
+        "output": 2.34,
+        "context": 262144,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.5-35b-a3b": {
+        "input": 0.139,
+        "output": 1,
+        "context": 262144,
+        "maxOutput": null
+      },
+      "qwen/qwen3.5-27b": {
+        "input": 0.195,
+        "output": 1.56,
+        "context": 262144,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.5-122b-a10b": {
+        "input": 0.26,
+        "output": 2.08,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "qwen/qwen3.5-flash-02-23": {
+        "input": 0.065,
+        "output": 0.26,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3-235b-a22b-thinking-2507": {
+        "input": 0.1495,
+        "output": 1.495,
+        "context": 262144,
+        "maxOutput": null
+      },
+      "qwen/qwen3.5-9b": {
+        "input": 0.04,
+        "output": 0.15,
+        "context": 262144,
+        "maxOutput": 81920
+      },
+      "qwen/qwen3-vl-30b-a3b-thinking": {
+        "input": 0.13,
+        "output": 1.56,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3-vl-235b-a22b-thinking": {
+        "input": 0.26,
+        "output": 2.6,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "qwen/qwen3.5-plus-20260420": {
+        "input": 0.3,
+        "output": 1.8,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.6-flash": {
+        "input": 0.1875,
+        "output": 1.125,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.6-35b-a3b": {
+        "input": 0.14,
+        "output": 1,
+        "context": 262144,
+        "maxOutput": 262140
+      },
+      "qwen/qwen3.6-max-preview": {
+        "input": 1.04,
+        "output": 6.24,
+        "context": 262144,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.6-27b": {
+        "input": 0.29,
+        "output": 3.2,
+        "context": 262144,
+        "maxOutput": 262140
+      },
+      "qwen/qwen3.6-plus": {
+        "input": 0.325,
+        "output": 1.95,
+        "context": 1000000,
+        "maxOutput": 65536
+      },
+      "qwen/qwen3.7-max": {
+        "input": 1.25,
+        "output": 3.75,
+        "context": 1000000,
+        "maxOutput": 65536
+      }
+    }
+  },
+  "previous": {
     "date": "2026-05-15",
     "models": {
       "qwen/qwen3-vl-32b-instruct": {
@@ -271,293 +552,6 @@
         "output": 1.95,
         "context": 1000000,
         "maxOutput": 65536
-      }
-    }
-  },
-  "previous": {
-    "date": "2026-03-12",
-    "models": {
-      "qwen/qwen3-vl-32b-instruct": {
-        "input": 0.104,
-        "output": 0.416,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-vl-8b-instruct": {
-        "input": 0.08,
-        "output": 0.5,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-vl-30b-a3b-instruct": {
-        "input": 0.13,
-        "output": 0.52,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-vl-235b-a22b-instruct": {
-        "input": 0.2,
-        "output": 0.88,
-        "context": 262144,
-        "maxOutput": null
-      },
-      "qwen/qwen3-next-80b-a3b-thinking": {
-        "input": 0.0975,
-        "output": 0.78,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-next-80b-a3b-instruct": {
-        "input": 0.09,
-        "output": 1.1,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "qwen/qwen3-30b-a3b-thinking-2507": {
-        "input": 0.051,
-        "output": 0.34,
-        "context": 32768,
-        "maxOutput": null
-      },
-      "qwen/qwen3-coder-30b-a3b-instruct": {
-        "input": 0.07,
-        "output": 0.27,
-        "context": 160000,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-30b-a3b-instruct-2507": {
-        "input": 0.09,
-        "output": 0.3,
-        "context": 262144,
-        "maxOutput": 262144
-      },
-      "qwen/qwen3-coder": {
-        "input": 0.22,
-        "output": 1,
-        "context": 262144,
-        "maxOutput": null
-      },
-      "qwen/qwen3-235b-a22b-2507": {
-        "input": 0.071,
-        "output": 0.1,
-        "context": 262144,
-        "maxOutput": null
-      },
-      "qwen/qwen3-30b-a3b": {
-        "input": 0.08,
-        "output": 0.28,
-        "context": 40960,
-        "maxOutput": 40960
-      },
-      "qwen/qwen3-8b": {
-        "input": 0.05,
-        "output": 0.4,
-        "context": 40960,
-        "maxOutput": 8192
-      },
-      "qwen/qwen3-14b": {
-        "input": 0.06,
-        "output": 0.24,
-        "context": 40960,
-        "maxOutput": 40960
-      },
-      "qwen/qwen3-32b": {
-        "input": 0.08,
-        "output": 0.24,
-        "context": 40960,
-        "maxOutput": 40960
-      },
-      "qwen/qwen3-235b-a22b": {
-        "input": 0.455,
-        "output": 1.82,
-        "context": 131072,
-        "maxOutput": 8192
-      },
-      "qwen/qwen2.5-coder-7b-instruct": {
-        "input": 0.03,
-        "output": 0.09,
-        "context": 32768,
-        "maxOutput": null
-      },
-      "qwen/qwen2.5-vl-32b-instruct": {
-        "input": 0.2,
-        "output": 0.6,
-        "context": 128000,
-        "maxOutput": null
-      },
-      "qwen/qwq-32b": {
-        "input": 0.15,
-        "output": 0.4,
-        "context": 32768,
-        "maxOutput": 32768
-      },
-      "qwen/qwen2.5-vl-72b-instruct": {
-        "input": 0.8,
-        "output": 0.8,
-        "context": 32768,
-        "maxOutput": 32768
-      },
-      "qwen/qwen-2.5-coder-32b-instruct": {
-        "input": 0.2,
-        "output": 0.2,
-        "context": 32768,
-        "maxOutput": 8192
-      },
-      "qwen/qwen-2.5-7b-instruct": {
-        "input": 0.04,
-        "output": 0.1,
-        "context": 32768,
-        "maxOutput": null
-      },
-      "qwen/qwen-2.5-72b-instruct": {
-        "input": 0.12,
-        "output": 0.39,
-        "context": 32768,
-        "maxOutput": 16384
-      },
-      "qwen/qwen-2.5-vl-7b-instruct": {
-        "input": 0.2,
-        "output": 0.2,
-        "context": 32768,
-        "maxOutput": null
-      },
-      "qwen/qwen3-vl-8b-thinking": {
-        "input": 0.117,
-        "output": 1.365,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-max": {
-        "input": 1.2,
-        "output": 6,
-        "context": 262144,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-coder-plus": {
-        "input": 0.65,
-        "output": 3.25,
-        "context": 1000000,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3-coder-flash": {
-        "input": 0.195,
-        "output": 0.975,
-        "context": 1000000,
-        "maxOutput": 65536
-      },
-      "qwen/qwen-plus-2025-07-28": {
-        "input": 0.26,
-        "output": 0.78,
-        "context": 1000000,
-        "maxOutput": 32768
-      },
-      "qwen/qwen-plus-2025-07-28:thinking": {
-        "input": 0.26,
-        "output": 0.78,
-        "context": 1000000,
-        "maxOutput": 32768
-      },
-      "qwen/qwen-vl-plus": {
-        "input": 0.1365,
-        "output": 0.4095,
-        "context": 131072,
-        "maxOutput": 8192
-      },
-      "qwen/qwen-vl-max": {
-        "input": 0.8,
-        "output": 3.2,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen-turbo": {
-        "input": 0.0325,
-        "output": 0.13,
-        "context": 131072,
-        "maxOutput": 8192
-      },
-      "qwen/qwen-plus": {
-        "input": 0.4,
-        "output": 1.2,
-        "context": 1000000,
-        "maxOutput": 32768
-      },
-      "qwen/qwen-max": {
-        "input": 1.04,
-        "output": 4.16,
-        "context": 32768,
-        "maxOutput": 8192
-      },
-      "qwen/qwen3-coder-next": {
-        "input": 0.12,
-        "output": 0.75,
-        "context": 262144,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3-max-thinking": {
-        "input": 0.78,
-        "output": 3.9,
-        "context": 262144,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3.5-plus-02-15": {
-        "input": 0.26,
-        "output": 1.56,
-        "context": 1000000,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3.5-397b-a17b": {
-        "input": 0.39,
-        "output": 2.34,
-        "context": 262144,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3.5-35b-a3b": {
-        "input": 0.1625,
-        "output": 1.3,
-        "context": 262144,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3.5-27b": {
-        "input": 0.195,
-        "output": 1.56,
-        "context": 262144,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3.5-122b-a10b": {
-        "input": 0.26,
-        "output": 2.08,
-        "context": 262144,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3.5-flash-02-23": {
-        "input": 0.1,
-        "output": 0.4,
-        "context": 1000000,
-        "maxOutput": 65536
-      },
-      "qwen/qwen3-235b-a22b-thinking-2507": {
-        "input": 0.11,
-        "output": 0.6,
-        "context": 262144,
-        "maxOutput": 262144
-      },
-      "qwen/qwen3.5-9b": {
-        "input": 0.1,
-        "output": 0.15,
-        "context": 262144,
-        "maxOutput": null
-      },
-      "qwen/qwen3-vl-30b-a3b-thinking": {
-        "input": 0.13,
-        "output": 1.56,
-        "context": 131072,
-        "maxOutput": 32768
-      },
-      "qwen/qwen3-vl-235b-a22b-thinking": {
-        "input": 0.26,
-        "output": 2.6,
-        "context": 131072,
-        "maxOutput": 32768
       }
     }
   }
