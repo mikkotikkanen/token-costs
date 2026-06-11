@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastCrawled": "2026-05-15T00:52:56.339Z",
+  "lastCrawled": "2026-06-11T01:03:12.755Z",
   "pricingUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
   "changes": [
     {
@@ -243,6 +243,61 @@
         "inputPricePerMillion": 0.25,
         "outputPricePerMillion": 1.25,
         "cachedInputPricePerMillion": 0.03
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-fable-5",
+        "modelName": "Claude Fable 5",
+        "inputPricePerMillion": 10,
+        "outputPricePerMillion": 50,
+        "cachedInputPricePerMillion": 1
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-mythos-5-limited-availability",
+        "modelName": "Claude Mythos 5 (limited availability)",
+        "inputPricePerMillion": 10,
+        "outputPricePerMillion": 50,
+        "cachedInputPricePerMillion": 1
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.8",
+        "modelName": "Claude Opus 4.8",
+        "inputPricePerMillion": 5,
+        "outputPricePerMillion": 25,
+        "cachedInputPricePerMillion": 0.5
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.1-deprecated",
+        "modelName": "Claude Opus 4.1",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-opus-4.1",
+        "modelName": "Claude Opus 4.1",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
       }
     }
   ]
