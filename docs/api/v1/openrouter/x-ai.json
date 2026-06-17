@@ -1,5 +1,34 @@
 {
   "current": {
+    "date": "2026-06-17",
+    "models": {
+      "x-ai/grok-4.3": {
+        "input": 1.25,
+        "output": 2.5,
+        "context": 1000000,
+        "maxOutput": null
+      },
+      "x-ai/grok-4.20-multi-agent": {
+        "input": 1.25,
+        "output": 2.5,
+        "context": 2000000,
+        "maxOutput": null
+      },
+      "x-ai/grok-4.20": {
+        "input": 1.25,
+        "output": 2.5,
+        "context": 2000000,
+        "maxOutput": null
+      },
+      "x-ai/grok-build-0.1": {
+        "input": 1,
+        "output": 2,
+        "context": 256000,
+        "maxOutput": null
+      }
+    }
+  },
+  "previous": {
     "date": "2026-05-15",
     "models": {
       "x-ai/grok-4.1-fast": {
@@ -66,59 +95,6 @@
         "input": 1.25,
         "output": 2.5,
         "context": 2000000,
-        "maxOutput": null
-      }
-    }
-  },
-  "previous": {
-    "date": "2026-03-12",
-    "models": {
-      "x-ai/grok-4.1-fast": {
-        "input": 0.2,
-        "output": 0.5,
-        "context": 2000000,
-        "maxOutput": 30000
-      },
-      "x-ai/grok-4-fast": {
-        "input": 0.2,
-        "output": 0.5,
-        "context": 2000000,
-        "maxOutput": 30000
-      },
-      "x-ai/grok-code-fast-1": {
-        "input": 0.2,
-        "output": 1.5,
-        "context": 256000,
-        "maxOutput": 10000
-      },
-      "x-ai/grok-4": {
-        "input": 3,
-        "output": 15,
-        "context": 256000,
-        "maxOutput": null
-      },
-      "x-ai/grok-3-mini": {
-        "input": 0.3,
-        "output": 0.5,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "x-ai/grok-3": {
-        "input": 3,
-        "output": 15,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "x-ai/grok-3-mini-beta": {
-        "input": 0.3,
-        "output": 0.5,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "x-ai/grok-3-beta": {
-        "input": 3,
-        "output": 15,
-        "context": 131072,
         "maxOutput": null
       }
     }
