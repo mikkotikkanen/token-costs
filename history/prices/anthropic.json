@@ -1,6 +1,6 @@
 {
   "provider": "anthropic",
-  "lastCrawled": "2026-05-15T00:52:56.339Z",
+  "lastCrawled": "2026-06-23T00:56:56.551Z",
   "pricingUrl": "https://platform.claude.com/docs/en/about-claude/pricing",
   "changes": [
     {
@@ -243,6 +243,105 @@
         "inputPricePerMillion": 0.25,
         "outputPricePerMillion": 1.25,
         "cachedInputPricePerMillion": 0.03
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-fable-5",
+        "modelName": "Claude Fable 5",
+        "inputPricePerMillion": 10,
+        "outputPricePerMillion": 50,
+        "cachedInputPricePerMillion": 1
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-mythos-5-limited-availability",
+        "modelName": "Claude Mythos 5 (limited availability)",
+        "inputPricePerMillion": 10,
+        "outputPricePerMillion": 50,
+        "cachedInputPricePerMillion": 1
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.8",
+        "modelName": "Claude Opus 4.8",
+        "inputPricePerMillion": 5,
+        "outputPricePerMillion": 25,
+        "cachedInputPricePerMillion": 0.5
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4.1-deprecated",
+        "modelName": "Claude Opus 4.1",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-opus-4-retired-except-on-vertex-ai",
+        "modelName": "Claude Opus 4 (retired, except on Vertex AI)",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "claude-sonnet-4-retired-except-on-bedrock-and-vertex-ai",
+        "modelName": "Claude Sonnet 4 (retired, except on Bedrock and Vertex AI)",
+        "inputPricePerMillion": 3,
+        "outputPricePerMillion": 15,
+        "cachedInputPricePerMillion": 0.3
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-opus-4.1",
+        "modelName": "Claude Opus 4.1",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-opus-4-deprecated",
+        "modelName": "Claude Opus 4",
+        "inputPricePerMillion": 15,
+        "outputPricePerMillion": 75,
+        "cachedInputPricePerMillion": 1.5
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "claude-sonnet-4-deprecated",
+        "modelName": "Claude Sonnet 4",
+        "inputPricePerMillion": 3,
+        "outputPricePerMillion": 15,
+        "cachedInputPricePerMillion": 0.3
       }
     }
   ]
