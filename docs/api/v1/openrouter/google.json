@@ -1,5 +1,154 @@
 {
   "current": {
+    "date": "2026-06-28",
+    "models": {
+      "google/gemini-3-flash-preview": {
+        "input": 0.5,
+        "output": 3,
+        "context": 1048576,
+        "maxOutput": 65535
+      },
+      "google/gemini-3-pro-image-preview": {
+        "input": 2,
+        "output": 12,
+        "context": 65536,
+        "maxOutput": 32768
+      },
+      "google/gemini-2.5-flash-image": {
+        "input": 0.3,
+        "output": 2.5,
+        "context": 32768,
+        "maxOutput": 32768
+      },
+      "google/gemini-2.5-flash-lite-preview-09-2025": {
+        "input": 0.1,
+        "output": 0.4,
+        "context": 1048576,
+        "maxOutput": 65535
+      },
+      "google/gemini-2.5-flash-lite": {
+        "input": 0.1,
+        "output": 0.4,
+        "context": 1048576,
+        "maxOutput": 65535
+      },
+      "google/gemini-2.5-flash": {
+        "input": 0.3,
+        "output": 2.5,
+        "context": 1048576,
+        "maxOutput": 65535
+      },
+      "google/gemini-2.5-pro": {
+        "input": 1.25,
+        "output": 10,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "google/gemini-2.5-pro-preview": {
+        "input": 1.25,
+        "output": 10,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "google/gemma-3n-e4b-it": {
+        "input": 0.06,
+        "output": 0.12,
+        "context": 32768,
+        "maxOutput": null
+      },
+      "google/gemini-2.5-pro-preview-05-06": {
+        "input": 1.25,
+        "output": 10,
+        "context": 1048576,
+        "maxOutput": 65535
+      },
+      "google/gemma-3-4b-it": {
+        "input": 0.05,
+        "output": 0.1,
+        "context": 131072,
+        "maxOutput": 16384
+      },
+      "google/gemma-3-12b-it": {
+        "input": 0.05,
+        "output": 0.15,
+        "context": 131072,
+        "maxOutput": 16384
+      },
+      "google/gemma-3-27b-it": {
+        "input": 0.08,
+        "output": 0.16,
+        "context": 131072,
+        "maxOutput": 16384
+      },
+      "google/gemma-2-27b-it": {
+        "input": 0.65,
+        "output": 0.65,
+        "context": 8192,
+        "maxOutput": 2048
+      },
+      "google/gemini-3.1-pro-preview": {
+        "input": 2,
+        "output": 12,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "google/gemini-3.1-flash-lite-preview": {
+        "input": 0.25,
+        "output": 1.5,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "google/gemini-3.1-flash-image-preview": {
+        "input": 0.5,
+        "output": 3,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "google/gemini-3.1-pro-preview-customtools": {
+        "input": 2,
+        "output": 12,
+        "context": 1048756,
+        "maxOutput": 65536
+      },
+      "google/gemini-3.1-flash-lite": {
+        "input": 0.25,
+        "output": 1.5,
+        "context": 1048576,
+        "maxOutput": 65536
+      },
+      "google/gemma-4-26b-a4b-it": {
+        "input": 0.06,
+        "output": 0.33,
+        "context": 262144,
+        "maxOutput": null
+      },
+      "google/gemma-4-31b-it": {
+        "input": 0.12,
+        "output": 0.35,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "google/gemini-3.1-flash-image": {
+        "input": 0.5,
+        "output": 3,
+        "context": 131072,
+        "maxOutput": 32768
+      },
+      "google/gemini-3-pro-image": {
+        "input": 2,
+        "output": 12,
+        "context": 65536,
+        "maxOutput": 32768
+      },
+      "google/gemini-3.5-flash": {
+        "input": 1.5,
+        "output": 9,
+        "context": 1048576,
+        "maxOutput": 65536
+      }
+    }
+  },
+  "previous": {
     "date": "2026-05-15",
     "models": {
       "google/gemini-3-flash-preview": {
@@ -139,143 +288,6 @@
         "output": 0.37,
         "context": 262144,
         "maxOutput": 16384
-      }
-    }
-  },
-  "previous": {
-    "date": "2026-03-12",
-    "models": {
-      "google/gemini-3-flash-preview": {
-        "input": 0.5,
-        "output": 3,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-3-pro-image-preview": {
-        "input": 2,
-        "output": 12,
-        "context": 65536,
-        "maxOutput": 32768
-      },
-      "google/gemini-3-pro-preview": {
-        "input": 2,
-        "output": 12,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-2.5-flash-image": {
-        "input": 0.3,
-        "output": 2.5,
-        "context": 32768,
-        "maxOutput": 32768
-      },
-      "google/gemini-2.5-flash-lite-preview-09-2025": {
-        "input": 0.1,
-        "output": 0.4,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-2.5-flash-lite": {
-        "input": 0.1,
-        "output": 0.4,
-        "context": 1048576,
-        "maxOutput": 65535
-      },
-      "google/gemini-2.5-flash": {
-        "input": 0.3,
-        "output": 2.5,
-        "context": 1048576,
-        "maxOutput": 65535
-      },
-      "google/gemini-2.5-pro": {
-        "input": 1.25,
-        "output": 10,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-2.5-pro-preview": {
-        "input": 1.25,
-        "output": 10,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemma-3n-e4b-it": {
-        "input": 0.02,
-        "output": 0.04,
-        "context": 32768,
-        "maxOutput": null
-      },
-      "google/gemini-2.5-pro-preview-05-06": {
-        "input": 1.25,
-        "output": 10,
-        "context": 1048576,
-        "maxOutput": 65535
-      },
-      "google/gemma-3-4b-it": {
-        "input": 0.04,
-        "output": 0.08,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "google/gemma-3-12b-it": {
-        "input": 0.04,
-        "output": 0.13,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "google/gemma-3-27b-it": {
-        "input": 0.03,
-        "output": 0.11,
-        "context": 128000,
-        "maxOutput": 65536
-      },
-      "google/gemini-2.0-flash-lite-001": {
-        "input": 0.075,
-        "output": 0.3,
-        "context": 1048576,
-        "maxOutput": 8192
-      },
-      "google/gemini-2.0-flash-001": {
-        "input": 0.1,
-        "output": 0.4,
-        "context": 1048576,
-        "maxOutput": 8192
-      },
-      "google/gemma-2-27b-it": {
-        "input": 0.65,
-        "output": 0.65,
-        "context": 8192,
-        "maxOutput": 2048
-      },
-      "google/gemma-2-9b-it": {
-        "input": 0.03,
-        "output": 0.09,
-        "context": 8192,
-        "maxOutput": null
-      },
-      "google/gemini-3.1-pro-preview": {
-        "input": 2,
-        "output": 12,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-3.1-flash-lite-preview": {
-        "input": 0.25,
-        "output": 1.5,
-        "context": 1048576,
-        "maxOutput": 65536
-      },
-      "google/gemini-3.1-flash-image-preview": {
-        "input": 0.5,
-        "output": 3,
-        "context": 65536,
-        "maxOutput": 65536
-      },
-      "google/gemini-3.1-pro-preview-customtools": {
-        "input": 2,
-        "output": 12,
-        "context": 1048576,
-        "maxOutput": 65536
       }
     }
   }
