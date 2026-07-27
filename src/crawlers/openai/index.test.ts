@@ -5,7 +5,7 @@ describe('OpenAICrawler', () => {
   it('should have correct configuration', () => {
     const crawler = new OpenAICrawler();
     expect(crawler.provider).toBe('openai');
-    expect(crawler.pricingUrl).toBe('https://platform.openai.com/docs/pricing');
+    expect(crawler.pricingUrl).toBe('https://developers.openai.com/api/docs/pricing');
   });
 
   // Note: The OpenAI crawler uses Playwright for browser automation.

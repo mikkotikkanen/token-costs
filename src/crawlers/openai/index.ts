@@ -4,11 +4,11 @@ import { ModelPricing, Provider } from '../../types.js';
 
 /**
  * OpenAI price crawler
- * Uses Playwright to scrape prices from OpenAI's platform pricing page
+ * Uses Playwright to scrape prices from OpenAI's developer pricing page
  */
 export class OpenAICrawler extends BaseCrawler {
   readonly provider: Provider = 'openai';
-  readonly pricingUrl = 'https://platform.openai.com/docs/pricing';
+  readonly pricingUrl = 'https://developers.openai.com/api/docs/pricing';
 
   async crawlPrices(): Promise<ModelPricing[]> {
     const browser = await chromium.launch({
@@ -53,7 +53,13 @@ export class OpenAICrawler extends BaseCrawler {
         const tables = Array.from(document.querySelectorAll('table'));
 
         for (const table of tables) {
-          const headerRow = table.querySelector('thead tr, tr');
+          // Some pricing tables have a grouped first header row (for example,
+          // short- and long-context prices). Select the row with real columns.
+          const headerRow = Array.from(table.querySelectorAll('thead tr, tr')).find(row =>
+            Array.from(row.querySelectorAll('th, td')).some(cell =>
+              cell.textContent?.toLowerCase().trim() === 'model'
+            )
+          );
           if (!headerRow) continue;
 
           const headers = Array.from(headerRow.querySelectorAll('th, td'))
@@ -62,8 +68,10 @@ export class OpenAICrawler extends BaseCrawler {
           // Look for text token table: Model | Input | Cached input | Output
           const hasModel = headers.some(h => h.includes('model'));
           const hasInput = headers.some(h => h === 'input');
-          const hasCached = headers.some(h => h.includes('cached'));
-          const hasOutput = headers.some(h => h === 'output');
+          const cachedIndex = headers.findIndex(h => h.includes('cached'));
+          const outputIndex = headers.findIndex(h => h === 'output');
+          const hasCached = cachedIndex !== -1;
+          const hasOutput = outputIndex !== -1;
 
           if (!hasModel || !hasInput || !hasOutput) continue;
 
@@ -75,9 +83,10 @@ export class OpenAICrawler extends BaseCrawler {
 
             const modelName = cells[0].textContent?.trim() || '';
             const inputStr = cells[1].textContent?.trim() || '';
-            // Cached column may or may not exist
-            const cachedStr = hasCached && cells.length >= 4 ? cells[2].textContent?.trim() || '' : '';
-            const outputStr = hasCached && cells.length >= 4 ? cells[3].textContent?.trim() || '' : cells[2].textContent?.trim() || '';
+            // Use header positions rather than assuming adjacent columns. The current
+            // page includes a cache-writes column between cached input and output.
+            const cachedStr = hasCached ? cells[cachedIndex]?.textContent?.trim() || '' : '';
+            const outputStr = cells[outputIndex]?.textContent?.trim() || '';
 
             const inputPrice = parsePrice(inputStr);
             const outputPrice = parsePrice(outputStr);

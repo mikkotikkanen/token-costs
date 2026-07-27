@@ -62,10 +62,10 @@ jobs:
           PR_NUMBER=$(echo "$PR_URL" | grep -oE '[0-9]+$')
           echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
 
-      - name: Merge PR with MoiAgent
+      - name: Merge PR
         if: steps.changes.outputs.has_changes == 'true'
         env:
-          MOI_TOKEN: ${{ secrets.MOI_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm install -g moiagent-cli
-          moi moi/token-costs-agent "merge pr #${{ steps.create_pr.outputs.pr_number }}"
+          gh pr merge "${{ steps.create_pr.outputs.pr_number }}" --squash --delete-branch
+        run: |
