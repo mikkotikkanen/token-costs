@@ -1,6 +1,6 @@
 {
   "provider": "google",
-  "lastCrawled": "2026-05-15T01:07:37.809Z",
+  "lastCrawled": "2026-08-02T03:28:03.458Z",
   "pricingUrl": "https://ai.google.dev/gemini-api/docs/pricing",
   "changes": [
     {
@@ -443,6 +443,50 @@
         "modelName": "gemini-3.1-flash-live-preview",
         "inputPricePerMillion": 14,
         "outputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gemini-3.6-flash",
+        "modelName": "gemini-3.6-flash",
+        "inputPricePerMillion": 1.5,
+        "outputPricePerMillion": 7.5,
+        "cachedInputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gemini-3.5-flash",
+        "modelName": "gemini-3.5-flash",
+        "inputPricePerMillion": 1.5,
+        "outputPricePerMillion": 9,
+        "cachedInputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "changeType": "added",
+      "pricing": {
+        "modelId": "gemini-3.5-flash-lite",
+        "modelName": "gemini-3.5-flash-lite",
+        "inputPricePerMillion": 0.3,
+        "outputPricePerMillion": 2.5,
+        "cachedInputPricePerMillion": 14
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "changeType": "removed",
+      "pricing": {
+        "modelId": "gemini-3.1-flash-lite-preview",
+        "modelName": "gemini-3.1-flash-lite-preview",
+        "inputPricePerMillion": 1.5,
+        "outputPricePerMillion": 1.5,
+        "cachedInputPricePerMillion": 14
       }
     }
   ]
