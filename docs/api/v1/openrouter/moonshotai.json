@@ -1,5 +1,58 @@
 {
   "current": {
+    "date": "2026-08-20",
+    "models": {
+      "moonshotai/kimi-k2-thinking": {
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 100352
+      },
+      "moonshotai/kimi-k2-0905": {
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 100352
+      },
+      "moonshotai/kimi-k2": {
+        "input": 0.57,
+        "output": 2.3,
+        "context": 131072,
+        "maxOutput": 100352
+      },
+      "moonshotai/kimi-k2.5": {
+        "input": 0.45,
+        "output": 2.25,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "moonshotai/kimi-k2.6": {
+        "input": 0.95,
+        "output": 4,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "moonshotai/kimi-k3": {
+        "input": 3,
+        "output": 15,
+        "context": 1048576,
+        "maxOutput": null
+      },
+      "moonshotai/kimi-k2.7-code": {
+        "input": 0.71,
+        "output": 3.5,
+        "context": 262144,
+        "maxOutput": 262144
+      },
+      "moonshotai/kimi-k2.7-code:batch": {
+        "input": 0.95,
+        "output": 4,
+        "context": 262144,
+        "maxOutput": null
+      }
+    }
+  },
+  "previous": {
     "date": "2026-05-15",
     "models": {
       "moonshotai/kimi-k2-thinking": {
@@ -31,35 +84,6 @@
         "output": 3.49,
         "context": 262142,
         "maxOutput": 262142
-      }
-    }
-  },
-  "previous": {
-    "date": "2026-03-12",
-    "models": {
-      "moonshotai/kimi-k2-thinking": {
-        "input": 0.47,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2-0905": {
-        "input": 0.4,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2": {
-        "input": 0.55,
-        "output": 2.2,
-        "context": 131000,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2.5": {
-        "input": 0.45,
-        "output": 2.2,
-        "context": 262144,
-        "maxOutput": 65535
       }
     }
   }
