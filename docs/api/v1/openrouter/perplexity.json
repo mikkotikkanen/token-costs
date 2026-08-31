@@ -1,6 +1,6 @@
 {
   "current": {
-    "date": "2026-05-15",
+    "date": "2026-08-31",
     "models": {
       "perplexity/sonar-pro-search": {
         "input": 3,
@@ -12,7 +12,7 @@
         "input": 2,
         "output": 8,
         "context": 128000,
-        "maxOutput": null
+        "maxOutput": 115200
       },
       "perplexity/sonar-pro": {
         "input": 3,
@@ -24,18 +24,18 @@
         "input": 2,
         "output": 8,
         "context": 128000,
-        "maxOutput": null
+        "maxOutput": 115200
       },
       "perplexity/sonar": {
         "input": 1,
         "output": 1,
         "context": 127072,
-        "maxOutput": null
+        "maxOutput": 114364
       }
     }
   },
   "previous": {
-    "date": "2026-03-12",
+    "date": "2026-05-15",
     "models": {
       "perplexity/sonar-pro-search": {
         "input": 3,
