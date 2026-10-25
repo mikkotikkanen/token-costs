@@ -1,5 +1,64 @@
 {
   "current": {
+    "date": "2026-10-25",
+    "models": {
+      "moonshotai/kimi-k2-thinking": {
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 98304
+      },
+      "moonshotai/kimi-k2-0905": {
+        "input": 0.6,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 98304
+      },
+      "moonshotai/kimi-k2": {
+        "input": 0.57,
+        "output": 2.3,
+        "context": 131072,
+        "maxOutput": 98304
+      },
+      "moonshotai/kimi-k2.5": {
+        "input": 0.5,
+        "output": 2.5,
+        "context": 262144,
+        "maxOutput": 235929
+      },
+      "moonshotai/kimi-k2.6": {
+        "input": 0.65,
+        "output": 3.41,
+        "context": 262144,
+        "maxOutput": 235929
+      },
+      "moonshotai/kimi-k3.1-pro": {
+        "input": 2,
+        "output": 10,
+        "context": 1048576,
+        "maxOutput": 943718
+      },
+      "moonshotai/kimi-k3": {
+        "input": 0.239,
+        "output": 10.8,
+        "context": 1048576,
+        "maxOutput": 943718
+      },
+      "moonshotai/kimi-k3:batch": {
+        "input": 2.28,
+        "output": 11.4,
+        "context": 1048576,
+        "maxOutput": 16384
+      },
+      "moonshotai/kimi-k2.7-code": {
+        "input": 0.6712,
+        "output": 3.35,
+        "context": 262144,
+        "maxOutput": 235929
+      }
+    }
+  },
+  "previous": {
     "date": "2026-05-15",
     "models": {
       "moonshotai/kimi-k2-thinking": {
@@ -31,35 +90,6 @@
         "output": 3.49,
         "context": 262142,
         "maxOutput": 262142
-      }
-    }
-  },
-  "previous": {
-    "date": "2026-03-12",
-    "models": {
-      "moonshotai/kimi-k2-thinking": {
-        "input": 0.47,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2-0905": {
-        "input": 0.4,
-        "output": 2,
-        "context": 131072,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2": {
-        "input": 0.55,
-        "output": 2.2,
-        "context": 131000,
-        "maxOutput": null
-      },
-      "moonshotai/kimi-k2.5": {
-        "input": 0.45,
-        "output": 2.2,
-        "context": 262144,
-        "maxOutput": 65535
       }
     }
   }
